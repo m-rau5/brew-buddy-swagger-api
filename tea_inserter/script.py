@@ -2,6 +2,8 @@ import json
 from ..app.extensions import db
 from ..app.models import Tea
 
+# Used for the first time insertion of the webscraped teas in the database
+
 
 def getTeas():
 

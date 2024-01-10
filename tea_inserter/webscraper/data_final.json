@@ -1,0 +1,1402 @@
+[
+    {
+        "tea_id": "M96",
+        "name": "Rambazamba",
+        "image": "https://cdn.dc5.ro/img-prod/2000000241173-2741011-240.jpg",
+        "ingredients": "Ceai verde, nucşoară, seminţe de guarana, aromă",
+        "type": "Ceai verde",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se lasa sa se raceasca 2-3 min., se adauga 1 lingurita de ceai (2.5g) pe cana si se lasa la infuzat 2 min",
+        "min_infuzion": 0,
+        "max_infuzion": 2
+    },
+    {
+        "tea_id": "M95",
+        "name": "Butterfly",
+        "image": "https://cdn.dc5.ro/img-prod/2000000241159-2743230-240.jpg",
+        "ingredients": "Ceai verde, bucăţi de papaya (papaya, zahăr, acid citric, clorură de calciu), complex de vitamine (vit. C, B3, E, B5, B6, B2, B1, acid folic, B12, maltodextroză), spirulină",
+        "type": "Ceai verde",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se lasa sa se raceasca 2-3 min., se adauga 1 lingurita de ceai (2.5g) pe cana si se lasa la infuzat 2 min",
+        "min_infuzion": 0,
+        "max_infuzion": 2
+    },
+    {
+        "tea_id": "M58",
+        "name": "Cactus Fig",
+        "image": "https://cdn.dc5.ro/img-prod/97580-2-240.jpeg",
+        "ingredients": "Ceai verde Sencha, flori de portocal, lemongrass, aromă",
+        "type": "Ceai verde",
+        "prep_method": "Se aduce apa la temperature de fierbere, se lasa sa se raceasca 2 minute, se adauga 1 lingurita (2.5g) de ceai / cana si se lasa la infuzat 2 minute. Se serveste simplu.",
+        "min_infuzion": 0,
+        "max_infuzion": 2
+    },
+    {
+        "tea_id": "M42",
+        "name": "Chun Mee",
+        "image": "https://cdn.dc5.ro/img-prod/2000000240213-2468948-240.jpg",
+        "ingredients": "Sortiment de ceai verde din partea de sud a Chinei - Chun Mee.",
+        "type": "Ceai verde",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se lasa sa se raceasca 2-3 min., se adauga 1 lingurita de ceai (2.5g) pe cana si se lasa la infuzat 2 min.",
+        "min_infuzion": 0,
+        "max_infuzion": 2
+    },
+    {
+        "tea_id": "M263",
+        "name": "China Oolong Tit Kon Yum",
+        "image": "https://cdn.dc5.ro/img-prod/2000000239873-2468993-240.jpg",
+        "ingredients": "Ceai chinezesc Oolong ",
+        "type": "Ceai verde",
+        "prep_method": "Se aduce apa la temp. de fierbere, se lasa sa se raceasca 2-3 min, se adauga 1 lingurita (2,5 g) de ceai / cana si se lasa la infuzat 2-3 min. Se serveste simplu.",
+        "min_infuzion": 2,
+        "max_infuzion": 3
+    },
+    {
+        "tea_id": "M18",
+        "name": "Gen Mai Cha",
+        "image": "https://cdn.dc5.ro/img-prod/2000000140001-1920809-240.jpg",
+        "ingredients": "Ceai verde Bancha, orez prajit",
+        "type": "Ceai verde",
+        "prep_method": "Se aduce apa la temperatura de fierbere,  se adauga 1 lingurita de ceai (2.5g) pe cana si se lasa la infuzat 1-2 min",
+        "min_infuzion": 1,
+        "max_infuzion": 2
+    },
+    {
+        "tea_id": "M146",
+        "name": "Yasumi",
+        "image": "https://cdn.dc5.ro/img-prod/97546-0-240.jpeg",
+        "ingredients": "Ceai verde, petale de floarea-soarelui și de trandafir, frunze de coacăz, aromă",
+        "type": "Ceai verde",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se lasa sa se raceasca 2-3 min, se adauga 1 lingurita de ceai (2.5g) pe cana si se lasa la infuzat 2 min",
+        "min_infuzion": 0,
+        "max_infuzion": 2
+    },
+    {
+        "tea_id": "M139",
+        "name": "Green Garden",
+        "image": "https://cdn.dc5.ro/img-prod/97540-0-240.jpg",
+        "ingredients": "Ceai verde, flori de bujor, petale de trandafir, mure, zmeura granule (sirop de glucoza, agent de ingrosare: alginat de sodiu), aroma de rubarba, frisca si afine",
+        "type": "Ceai verde",
+        "prep_method": "Se aduce apa la temp de fierbere, se lasa sa se raceasca 2-3 min, se adauga 1 lingurita (2,5 g) de ceai/cana si se lasa la infuzat 1-2 min. Se serveste cu miere.",
+        "min_infuzion": 1,
+        "max_infuzion": 2
+    },
+    {
+        "tea_id": "M13",
+        "name": "Sencha Kalegawa",
+        "image": "https://cdn.dc5.ro/img-prod/2000000139937-1715614-240.jpg",
+        "ingredients": "Ceai verde japonez",
+        "type": "Ceai verde",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se lasa sa se raceasca 2-3 min., se adauga 1 lingurita de ceai (2.5g) pe cana si se lasa la infuzat 2 min",
+        "min_infuzion": 0,
+        "max_infuzion": 2
+    },
+    {
+        "tea_id": "M12",
+        "name": "Cream / Cinnamon / Vanilla / Pepper",
+        "image": "https://cdn.dc5.ro/img-prod/2000000238043-2468995-240.jpg",
+        "ingredients": "Rooibos, bucati de scortisoara, ghimbir, amaranth, Stevia rebaudiana, frunze de bambus, piper roz, cardamom. Gust de vanilie si scortisoara",
+        "type": "Ceai rosu - Rooibos",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 3 lingurite de ceai (7.5 gr.) pe cana si se lasa la infuzat 5-10 min",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M09",
+        "name": "Formosa Oolong",
+        "image": "https://cdn.dc5.ro/img-prod/97535-0-240.jpg",
+        "ingredients": "Ceai oolong taiwanez",
+        "type": "Ceai verde",
+        "prep_method": "Se aduce apa la temp de fierbere, se lasa sa se raceasca 2-3 min, se adauga 1 lingurita (2,5 g) de ceai/cana si se lasa la infuzat 3-5 min. Se serveste simplu. Placut si aromat",
+        "min_infuzion": 3,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M90",
+        "name": "Orange & Ginger",
+        "image": "https://cdn.dc5.ro/img-prod/2000000241081-1715634-240.jpg",
+        "ingredients": "Rooibos, ghimbir (10%), fulgi de portocala (suc concentrat de portocale, amidon din porumb) (5%), piper roz, piper negru, flori de portocal, aroma de portocale si ghimbir",
+        "type": "Ceai rosu - Rooibos",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 1 lingurita (2.5g) de ceai / cana si se lasa la infuzat 7-10 min. Se serveste cu miere si lapte.",
+        "min_infuzion": 7,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M88",
+        "name": "Tropencreme",
+        "image": "https://cdn.dc5.ro/img-prod/97529-0-240.jpeg",
+        "ingredients": "Rooibos, honeybush, fragi, fulgi de cocos, bucati de papaya, fulgi de ciocolata alba",
+        "type": "Ceai rosu - Rooibos",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se lasa sa se raceasca 2-3 min., se adauga 1 lingurita de ceai (2.5g) pe cana si se lasa la infuzat 2 min.",
+        "min_infuzion": 0,
+        "max_infuzion": 2
+    },
+    {
+        "tea_id": "M85",
+        "name": "Baked Apple ",
+        "image": "https://cdn.dc5.ro/img-prod/97525-1-240.jpeg",
+        "ingredients": "Rooibos, macese, migdale, coaja de portocala, scortisoara, cuisoare, cardamom, aroma",
+        "type": "Ceai rosu - Rooibos",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 2 lingurite de ceai (5 gr.) pe cana si se lasa la infuzat 5-10 min",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M242",
+        "name": "Pineapple & Ginger",
+        "image": "https://cdn.dc5.ro/img-prod/2000000247557-2468940-240.jpg",
+        "ingredients": "Rooibos verde, cubulete de ananas (ananas, zahar, regulator de aciditate: acid citric), bucati de ghimbir, cubulete de ghimbir glasat (ghimbir, zahar), floarea-soarelui, arome.",
+        "type": "Ceai rosu - Rooibos",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1 lingurita de ceai/cana si se lasa la infuzat 3-5 min. Se serveste cu miere si lapte. Ceai calmant",
+        "min_infuzion": 3,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M233",
+        "name": "Aloe Vera & Cranberry",
+        "image": "https://cdn.dc5.ro/img-prod/2000000239576-2740979-240.jpg",
+        "ingredients": "Rooibos verde, sofranel, merisor, pudra de aloe vera",
+        "type": "Ceai rosu - Rooibos",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1-2 lingurite de ceai / cana si se lasa la infuzat 5-10 min. Se poate servi simplu sau indulcit cu miere",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M220",
+        "name": "Vanilla",
+        "image": "https://cdn.dc5.ro/img-prod/97514-0-240.png",
+        "ingredients": "Rooibos, aromă de vanilie",
+        "type": "Ceai rosu - Rooibos",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1-2 lingurite de ceai / cana si se lasa la infuzat 5-10 min",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M219",
+        "name": "Orange & Lemon",
+        "image": "https://cdn.dc5.ro/img-prod/97513-0-240.jpeg",
+        "ingredients": "Rooibos, coaja de lamaie, coaja de portocale, lemongrass, aroma",
+        "type": "Ceai rosu - Rooibos",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1-2 lingurite de ceai / cana si se lasa la infuzat 5-10 min",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M218",
+        "name": "Redbush Pure",
+        "image": "https://cdn.dc5.ro/img-prod/97512-0-240.jpeg",
+        "ingredients": "Rooibos ",
+        "type": "Ceai rosu - Rooibos",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1 lingurita de ceai / cana si se lasa la infuzat 5-8 minute. Se serveste cu miere si lapte",
+        "min_infuzion": 5,
+        "max_infuzion": 8
+    },
+    {
+        "tea_id": "M118",
+        "name": "Farmer's Love",
+        "image": "https://cdn.dc5.ro/img-prod/2000000238005-1920165-240.jpg",
+        "ingredients": "Rooibos, bucati de papaya si banana, coji de portocale, petale de floarea-soarelui, frunze de coacaz",
+        "type": "Ceai rosu - Rooibos",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1 lingurita de ceai/cana si se lasa la infuzat 3-5 min. Se serveste cu miere si lapte. Ceai calmant.",
+        "min_infuzion": 3,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M114",
+        "name": "Cinnamon Punch",
+        "image": "https://cdn.dc5.ro/img-prod/2000000237879-1715636-240.jpg",
+        "ingredients": "Rooibos, bucati de mere, zahar candel, scortisoara (5%), coji de portocale, cardamom, flori de albastrele, cuisoare, iarba neagra, aroma",
+        "type": "Ceai rosu - Rooibos",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 3 lingurite de ceai (7.5 gr.) pe cana si se lasa la infuzat 5-10 min.Se aduce apa la temperatura de fierbere, se adauga 3 lingurite de ceai (7.5 gr.) pe cana si se lasa la infuzat 5-10 min.",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M112",
+        "name": "Almond & Marzipan",
+        "image": "https://cdn.dc5.ro/img-prod/97499-0-240.jpeg",
+        "ingredients": "Rooibos, ananas confiat (zahar din trestie, ananas, acid citric), migdale tocate (4%), felii de migdale (4%), zahar candel, aroma",
+        "type": "Ceai rosu - Rooibos",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1 lingurita de ceai / pe cana si se lasa la infuzat 5-10 min",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M111",
+        "name": "Orange & Chocolate ",
+        "image": "https://cdn.dc5.ro/img-prod/97497-1816394-240.jpeg",
+        "ingredients": "Rooibos, ciocolata (zahar, lapte integral praf, unt de cacao, praf de zer dulce, pasta de cacao, emulsifiant: lecitina din soia) (5%), bucatele de portocale (suc concentrat de portocale, pulpa de portocale) (1.75%), coji de portocala (3%), aroma. Nu este vegan",
+        "type": "Ceai rosu - Rooibos",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 3 lingurite de  ceai / cana si se lasa la infuzat 5-10 min. Se serveste cu zahar.",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M106",
+        "name": "Tiramisu & Truffle ",
+        "image": "https://cdn.dc5.ro/img-prod/2000000237718-1920157-240.jpg",
+        "ingredients": "Rooibos, bucati de mar, fulgi de morcov granulat, fulgi de ciocolata alba (zahar, unt de cacao, lapte praf integral, emulsifiant: lecitina din floarea-soarelui), migdale prajite (migdale, zahar, scortisoara, vanilina, acidifiant: acid tartric, apa), stelute din ciocolata amaruie (zahar, masa de cacao, unt de cacao, emulsifiant: fosfatid de amoniu E442)",
+        "type": "Ceai rosu - Rooibos",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 1 lingurita de ceai / cana si se lasa la infuzat 5-10 min. Se serveste cu zahar",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M80",
+        "name": "Mate Hula Hopp",
+        "image": "https://cdn.dc5.ro/img-prod/2000000240947-1715628-240.jpg",
+        "ingredients": "Mate, banane din zahar, fulgi de cocos, lemn de santal, flori de nalba albastra, aroma",
+        "type": "Pentru cunoscatori",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 1.5 lingurite de ceai / cana si se lasa la infuzat 3-5 min. Se serveste cu zahar brun.",
+        "min_infuzion": 3,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M39",
+        "name": "Lovely Lemon ",
+        "image": "https://cdn.dc5.ro/img-prod/2000000143958-2468264-240.jpg",
+        "ingredients": "Ceai negru, coaja de lamaie (5%), granule de lamaie (sirop de glucoza, suc concentrat de lamaie, caise usor indulcite, amidon de porumb, alginat de sodiu) (2%), aroma",
+        "type": "Ceai negru",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1 lingurita (2.5 gr) de ceai pe cana si se lasa la infuzat 3-5 min.",
+        "min_infuzion": 3,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M36",
+        "name": "Christmas Tea Royal",
+        "image": "https://cdn.dc5.ro/img-prod/97471-2-240.jpeg",
+        "ingredients": "Ceai negru, bucatele de ananas, bucatele de migdale, cuisoare, bucatele de scortisoara, scaiete colorant, bucati de ghimbir, aroma",
+        "type": "Ceai negru",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1 lingurita (2.5g) de ceai / cana si se lasa la infuzat 3-5 minute. Se serveste cu zahar si lapte.",
+        "min_infuzion": 3,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M251",
+        "name": "Lychee",
+        "image": "https://cdn.dc5.ro/img-prod/2000000143859-2468320-240.jpg",
+        "ingredients": "Ceai negru, fructe de lychee.",
+        "type": "Ceai negru",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1 lingurita (2.5 gr) de ceai pe cana si se lasa la infuzat 3-5 min.",
+        "min_infuzion": 3,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M241",
+        "name": "Apple Cake",
+        "image": "https://cdn.dc5.ro/img-prod/2000000247465-2468284-240.jpg",
+        "ingredients": "Ceai negru, stafide, bucati de mar, migdale taiate, arome",
+        "type": "Ceai negru",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1 lingurita (2.5 gr) de ceai pe cana si se lasa la infuzat 3-5 min",
+        "min_infuzion": 3,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M74",
+        "name": "Cherry & Banana",
+        "image": "https://cdn.dc5.ro/img-prod/2000000240848-1796390-240.jpg",
+        "ingredients": "Hibiscus, ananas confiat (ananas, zahar din trestie, acid citric), stafide (stafide, ulei de floarea-soarelui), fulgi de banana (banana, ulei de cocos, zahar din trestie, aroma) (8.5%), cirese confiate (cirese, zahar, ulei de floarea-soarelui) (8.5%), aroma de cirese si banane",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 3 lingurite (7.5 gr) de ceai pe cana si se lasa la infuzat 5-10 min.",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M72",
+        "name": "Scented Spring",
+        "image": "https://cdn.dc5.ro/img-prod/2000000240800-1998425-240.jpg",
+        "ingredients": "Hibiscus, fructe de soc, stafide, bucati de ananas si de kiwi, flori de bujor, fulgi de cocos, petale de floarea-soarelui.  ",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 3 lingurite (7.5 gr) de ceai pe cana si se lasa la infuzat 5-10 min.",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M71",
+        "name": "Classic Spicy Cocktail",
+        "image": "https://cdn.dc5.ro/img-prod/97420-0-240.jpeg",
+        "ingredients": "Hibiscus, macese, bucati de mar, coaja de portocala si de lamaie, migdale tocate, scortisoara, aroma.",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 3 lingurite (7.5 gr) de ceai pe cana si se lasa la infuzat 5-10 min.",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M69",
+        "name": "Spring Mix",
+        "image": "https://cdn.dc5.ro/img-prod/2000000140469-2739897-240.jpg",
+        "ingredients": "Coji de macese, hibiscus, bucati de mar, coji de portocala si lamaie, albastrele, flori de bujor, petale de floarea soarelui, aroma de pepene si zmeura.  ",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 3 lingurite (7.5 gr) de ceai pe cana si se lasa la infuzat 5-10 min.",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M217",
+        "name": "Strawberry Apple Spice ",
+        "image": "https://cdn.dc5.ro/img-prod/97406-0-240.jpeg",
+        "ingredients": "Bucati de mar, stafide, sfecla rosie, hibiscus, bucati de scortisoara, radacina de lemn dulce, bucati de capsuna, nucsoara, coriandru, piper, rozmarin, aroma naturala",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 2-3 lingurite  de ceai / cana si se lasa la infuzat 5-10 min",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M216",
+        "name": "Mama Oraba",
+        "image": "https://cdn.dc5.ro/img-prod/97405-0-240.jpeg",
+        "ingredients": "Stafide, banana chips, hibiscus, bucati de morcov, radacina de lemn dulce, bucati de ananas, cuburi de mango, bucati de scortisoara, flori de galbenele",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 3 lingurite (7.5 gr) de ceai pe cana si se lasa la infuzat 5-10 min.",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M208",
+        "name": "Cinnamon and Apple",
+        "image": "https://cdn.dc5.ro/img-prod/97403-0-240.jpeg",
+        "ingredients": "Bucati de mar si scortisoara, hibiscus, macese, coaja de portocala, bucati de papaya (papaya, zahar, aditivi: acid citric, clorura de calciu), petale de trandafir, fulgi de migdale, aroma",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 3 lingurite de ceai / cana si se lasa la infuzat 5-10 min. Se serveste cu zahar.",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M170",
+        "name": "Almond & Turkish Honey",
+        "image": "https://cdn.dc5.ro/img-prod/2000000238791-2739906-240.jpg",
+        "ingredients": "Stelute din zahar, bucati de mar, hibiscus, stafide, coji de macese, fulgi de morcov, fulgi de ciocolata, migdale prajite, lemn de santal, aroma.",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 3 lingurite (7.5 gr) de ceai pe cana si se lasa la infuzat 5-10 min.",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M167",
+        "name": "Happy Sunshine",
+        "image": "https://cdn.dc5.ro/img-prod/2000000146874-1715670-240.jpg",
+        "ingredients": "Bucati de mar cu vitamina C, bucati de ananas si papaya, hibiscus, mango si maracuja granulata, aroma de ananas, coacaze si piersici",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 3 lingurite (7.5 gr) de ceai pe cana si se lasa la infuzat 5-10 min.",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M161",
+        "name": "Multi Fruit",
+        "image": "https://cdn.dc5.ro/img-prod/97378-0-240.jpeg",
+        "ingredients": "Hibiscus, boabe de soc, stafide (stafide, ulei de floarea-soarelui), bucati de portocale (suc concentrat si pulpa de portocale), papaya confiat (papaya, zahar), ananas confiat (ananas, zahar din trestie, acid citric), mango granulat (sirop de glucoza din grau, piure de mango, alginat de sodiu), sofranel",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 3 lingurite (7.5 gr) de ceai pe cana si se lasa la infuzat 5-10 min.",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M159",
+        "name": "Children's Blend",
+        "image": "https://cdn.dc5.ro/img-prod/2000000238647-1920793-240.jpg",
+        "ingredients": "Hibiscus, fruct de trandafir, bucati de mar, coaja de portocala, bucati de vanilie",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 3 lingurite de ceai / cana si se lasa la infuzat 5-10 minute. Se serveste cu zahar. Se poate servi si rece.",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M156",
+        "name": "Apple & Cinnamon",
+        "image": "https://cdn.dc5.ro/img-prod/97373-0-240.jpeg",
+        "ingredients": "Bucati de mar cu vitamina C (mar, aroma, agent acidulator, acid citric,  vitamina C), aroma.",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 3 lingurite (7.5 gr) de ceai pe cana si se lasa la infuzat 5-10 min.",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M276",
+        "name": "Kukicha",
+        "image": "https://cdn.dc5.ro/img-prod/2000000240008-2467780-240.jpg",
+        "ingredients": "Ceai verde japonez",
+        "type": "Pentru cunoscatori",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se lasa sa se raceasca 2-3 minute, se aduga 1 lingurita de ceai / cana si se lasa la infuzat 2 minute Se serveste simplu",
+        "min_infuzion": 0,
+        "max_infuzion": 2
+    },
+    {
+        "tea_id": "M257",
+        "name": "Pu Erh Tea",
+        "image": "https://cdn.dc5.ro/img-prod/2000000239781-2467774-240.jpg",
+        "ingredients": "Ceai fermentat chinezesc Pu Erh din provincia Fujian",
+        "type": "Pentru cunoscatori",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1 lingurita (2.5 g) de ceai pe cana si se lasa la infuzat 3–5 min.",
+        "min_infuzion": 3,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M252",
+        "name": "China Keemun Congou",
+        "image": "https://cdn.dc5.ro/img-prod/2000000143866-2467772-240.jpg",
+        "ingredients": "Ceai negru simplu, continut scazut de taninuri",
+        "type": "Pentru cunoscatori",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1 lingurita (2.5 g) de ceai/cana si se lasa la infuzat 3-5 min.  Se serveste cu zahar si lapte.",
+        "min_infuzion": 3,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M201",
+        "name": "Green Spice",
+        "image": "https://cdn.dc5.ro/img-prod/2000000140025-2739888-240.jpg",
+        "ingredients": "Ceai verde, bucati de scortisoara, izma, cardamom, ghimbir, cuisoare, piper",
+        "type": "Pentru cunoscatori",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1 lingurita (2.5 g) de ceai pe cana si se lasa la infuzat 3–5 min.",
+        "min_infuzion": 3,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M16",
+        "name": "Russian Mixture",
+        "image": "https://cdn.dc5.ro/img-prod/2000000139968-2743218-240.jpg",
+        "ingredients": "Ceai negru preparat dupa o reteta traditionala ruseasca, afumat.  ",
+        "type": "Pentru cunoscatori",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1 lingurita (2.5 g) de ceai pe cana si se lasa la infuzat 3-5 min.",
+        "min_infuzion": 3,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M134",
+        "name": "White Cloud",
+        "image": "https://cdn.dc5.ro/img-prod/2000000238241-1920356-240.jpg",
+        "ingredients": "Ceai alb, ceai verde, coji de laraha (curaçao), fulgi de morcov, portocala, frunze de gingko, albastrele, aroma ",
+        "type": "Pentru cunoscatori",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1 lingurita de ceai / cana si se lasa la infuzat 1-2 min. Se serveste simplu.",
+        "min_infuzion": 1,
+        "max_infuzion": 2
+    },
+    {
+        "tea_id": "M131",
+        "name": "Banana & Strawberry",
+        "image": "https://cdn.dc5.ro/img-prod/2000000238197-1920352-240.jpg",
+        "ingredients": "Ceai alb, bucati de banana, bucati de mar, cuburi de papaya, zahar, ulei de cocos, miere, sirop de lamaie, flori de nalba albastra, felii de portocale, bucati de lamaie granulate (sirop de glucoza) caise, bucati de capsuna, aroma naturala",
+        "type": "Pentru cunoscatori",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se lasa sa se raceasca 2-3 min., se adauga 1 lingurita de ceai pe cana si se lasa la infuzat 3-4 min",
+        "min_infuzion": 3,
+        "max_infuzion": 4
+    },
+    {
+        "tea_id": "M04",
+        "name": "Himalaya Royal",
+        "image": "https://cdn.dc5.ro/img-prod/2000000139821-1920143-240.jpg",
+        "ingredients": "Ceai negru indian Darjeeling din prima recolta",
+        "type": "Ceai negru",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1 lingurita / ceai pe cana si se lasa la infuzat 3-5 min",
+        "min_infuzion": 3,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M712",
+        "name": "Spicy Cocoa - fara aroma",
+        "image": "https://cdn.dc5.ro/img-prod/2000000274553-2739891-240.jpg",
+        "ingredients": "Boabe de cacao, scortisoara, radacina de lemn-dulce, bucatele de mere cu carob, ghimbir, vanilie, cuisoare, nucsoara, piper negru",
+        "type": "Pentru cunoscatori",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1 lingurita (2.5 g) de ceai pe cana si se lasa la infuzat 3-5 min.",
+        "min_infuzion": 3,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M710",
+        "name": "Orange / Ginger",
+        "image": "https://cdn.dc5.ro/img-prod/2000000274584-2467852-240.jpg",
+        "ingredients": "Bucatele de mar, hibiscus, coaja de portocale, fulgi de banana (banana, ulei de cocos, zahar, miere), boboci de trandafir, stafide negre, aroma de ghimbir, floarea-soarelui.",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 3 lingurite (7.5 gr) de ceai / cana si se lasa la infuzat 5-10 min.",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M708",
+        "name": "Oolong Jasmine / Stinging Nettle",
+        "image": "https://cdn.dc5.ro/img-prod/2000000274546-2741008-240.jpg",
+        "ingredients": "Ceai oolong, frunze de urzica, flori de iasomie, lemongrass",
+        "type": "Ceai verde",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se lasa sa se raceasca 2-3 min., se adauga 1 lingurita de ceai / cana si se lasa la infuzat 2 min",
+        "min_infuzion": 0,
+        "max_infuzion": 2
+    },
+    {
+        "tea_id": "M703",
+        "name": "Wild Berries",
+        "image": "https://cdn.dc5.ro/img-prod/97231-0-240.jpeg",
+        "ingredients": "Hibiscus, zmeura, sfecla, stafide negre, coacaze negre, coacaze rosii, mure, fructe de soc.",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 3 lingurite de ceai / cana si se lasa la infuzat 5-10 minute. Se serveste cu zahar. Se poate servi si rece.",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M312",
+        "name": "Lemon / Rosemary",
+        "image": "https://cdn.dc5.ro/img-prod/2000000273891-2467776-240.jpg",
+        "ingredients": "Ceai alb, lemongrass, menta, coaja de lamaie, frunze de rozmarin, aroma naturala. Ingrediente provenite din culturi organice",
+        "type": "Pentru cunoscatori",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1 lingurita de ceai / cana si se lasa la infuzat 1-2 min.",
+        "min_infuzion": 1,
+        "max_infuzion": 2
+    },
+    {
+        "tea_id": "M309",
+        "name": "Apple Strudel",
+        "image": "https://cdn.dc5.ro/img-prod/97218-0-240.jpeg",
+        "ingredients": "Rooibos, honeybush, bucatele de mar (10%), pulpa de mar (5%), granule de miere (maltodextrina, miere, amidon modificat din cartof, agent de ingrosare: alginat de sodiu), bucatele de scortisoara, aroma",
+        "type": "Ceai rosu - Rooibos",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 1 lingurita (2.5g) de ceai / cana si se lasa la infuzat 5-10 min. Se serveste cu miere si lapte.",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M308",
+        "name": "Cinnamon - Roasted Almonds",
+        "image": "https://cdn.dc5.ro/img-prod/2000000271989-2467856-240.jpg",
+        "ingredients": "Bucati de mar, cubulete de ananas (ananas, zahar, acid citric), scortisoara chinezeasca (12.5%), seminte de dovleac prajite, stafide (stafide, ulei de floarea-soarelui) coacaze, fulgi de cocos (cocos, zahar), fulgi de zmeura (piure de zmeura, amidon din porumb,suc concentrat de zmeura, zahar), petale de nalba, aroma de migdale si scortisoara",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 3 lingurite (7.5 gr) de ceai pe cana si se lasa la infuzat 5-10 min.",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M307",
+        "name": "Fruits Cocktail",
+        "image": "https://cdn.dc5.ro/img-prod/2000000271972-2467871-240.jpg",
+        "ingredients": "Hibiscus, macese, bucati de mar, bucati de portocala, afine, flori de galbenele, bucati de capsuni, bucati de visine, mure, aroma de jackfruit, piersici si papaya",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 3 lingurite (7.5 gr) de ceai pe cana si se lasa la infuzat 5-10 min.",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M305",
+        "name": "Crispy Dream",
+        "image": "https://cdn.dc5.ro/img-prod/2000000271958-2467854-240.jpg",
+        "ingredients": "Bucati de mar cu vitamina C, scortisoara chinezeasca, ananas confiat (ananas, zahar, acid citric), stafide (stafide, ulei de floarea-soarelui), papaya confiata (papaya, zahar), migdale prajite (migdale, zahar, scortisoara, vanilina, acid tartric), bucati de sfecla, fulgi de cocos, popcorn, aroma",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 3 lingurite (7.5 gr) de ceai pe cana si se lasa la infuzat 5-10 min.",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M245",
+        "name": "Sea Buckthorn / Cream",
+        "image": "https://cdn.dc5.ro/img-prod/2000000273853-2468352-240.jpg",
+        "ingredients": "Macese, frunze de hibiscus, catina alba, stafide, frunze de mur si de zmeur, frunze de capsun,  nemtisor, flori de galbenele, aroma",
+        "type": "Infuzie de plante",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 3 lingurite (7.5 gr) de ceai pe cana si se lasa la infuzat 5–7 min.",
+        "min_infuzion": 5,
+        "max_infuzion": 7
+    },
+    {
+        "tea_id": "M228",
+        "name": "Wildman's Delight - Natural Flavour",
+        "image": "https://cdn.dc5.ro/img-prod/2000000274195-2467873-240.jpg",
+        "ingredients": "Bucatele de para, bucatele de mar, lemongrass, scortisoara Cassia, boabe de cacao, piper, nucsoara, coaja de portocale, jiaogulan, piper roz, frunze de buchu, aroma naturala",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 2-3 lingurite de ceai / cana si se lasa la infuzat 5-10 min",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M224",
+        "name": "Tastes Like Snow",
+        "image": "https://cdn.dc5.ro/img-prod/97195-0-240.jpeg",
+        "ingredients": "Merisoare (merisoare, zahar, ulei de floarea-soarelui), fructe de scorus de munte, stafide, cristale de zahar (zahar, ulei de arahide, faina de orez, amidon din cartofi, aroma), albastrele, catina alba, aroma.Gust racoritor de portocale, catina si merisor",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 3 lingurite (7.5 gr) de ceai pe cana si se lasa la infuzat 5-10 min",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M479",
+        "name": "Crazy Love",
+        "image": "https://cdn.dc5.ro/img-prod/447294-0-240.jpeg",
+        "ingredients": "Bucatele de ananas, stafide, zahar, flori de hibiscus, visine, boabe de soc, arome, fulgi de banane, petale de trandafir, zmeura, capsuni, coacaze negre, afine liofilizate",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 2-3 lingurite de ceai / cana si se lasa la infuzat 5-10 minute. Se serveste cu zahar.",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M474",
+        "name": "Yuzu Raspberry ",
+        "image": "https://cdn.dc5.ro/img-prod/447289-0-240.jpeg",
+        "ingredients": "Ceai negru (88%), coaja de lamaie, granule de lamaie, de zmeura si de yuzu liofilizate, maltodextrina, ulei de lamaie, alginat de sodiu, suc de yuzu, piure de mere",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 1 lingurita (2.5g) de ceai / cana si se lasa la infuzat 3-5 min. Se serveste cu zahar.",
+        "min_infuzion": 3,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M472",
+        "name": "Peach Strawberry",
+        "image": "https://cdn.dc5.ro/img-prod/447287-0-240.jpeg",
+        "ingredients": "Ceai negru, arome naturale, bucatele de capsuni liofilizate, petale de floarea-soarelui ",
+        "type": "Ceai negru",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1 lingurita de ceai / cana si se lasa la infuzat 3-5 min. Se serveste cu zahar",
+        "min_infuzion": 3,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M751",
+        "name": "China Jasmin Mao Jian ",
+        "image": "https://cdn.dc5.ro/img-prod/441837-0-240.png",
+        "ingredients": "Ceai verde fin cu iasomie, aroma discreta. Culoarea roz-galbui sugereaza caracterul tipic fructat al infuziei",
+        "type": "Ceai verde",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se lasa sa se raceasca 2-3 minute, se adauga 1 lingurita de ceai / cana si se lasa la infuzat 3-4 minute. Se serveste simplu",
+        "min_infuzion": 3,
+        "max_infuzion": 4
+    },
+    {
+        "tea_id": "M428",
+        "name": "Chocolate Cream Truffles",
+        "image": "https://cdn.dc5.ro/img-prod/439661-0-240.jpg",
+        "ingredients": "Ceai negru, boabe de cacao macinate, fulgi de cocos, fulgi de ciocolata (zahar, unt de cacao, lecitina din soia), aroma",
+        "type": "Ceai negru",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 2 lingurite (2,5g) de ceai / cana si se lasa la infuzat 2 min. Se serveste cu zahar.",
+        "min_infuzion": 0,
+        "max_infuzion": 2
+    },
+    {
+        "tea_id": "M424",
+        "name": "Jasmin Dragon Phoenix Pearl ",
+        "image": "https://cdn.dc5.ro/img-prod/439657-0-240.jpeg",
+        "ingredients": "Ceai verde chinezesc. Frunzele de ceai se suprapun, partial uscate, de sase ori la rand cu florile parfumate de iasomie, apoi ruleaza sub forma unor mici perle",
+        "type": "Pentru cunoscatori",
+        "prep_method": "Se aduce apa la temp. de fierbere, se lasa sa se raceasca 2-3 minute, se adauga 1 lingurita de ceai / cana si se lasa la infuzat 2 minute. Se serveste simplu",
+        "min_infuzion": 0,
+        "max_infuzion": 2
+    },
+    {
+        "tea_id": "M423",
+        "name": "Pai Mu Tan ",
+        "image": "https://cdn.dc5.ro/img-prod/439656-2-240.jpeg",
+        "ingredients": "Ceai alb Pai Mu Tan, cel mai cunoscut sortiment de ceai alb cultivat in provincia Fujian, supranumit Bujorul Alb. Are culoarea luminoasa a ambrei si gustul fin condimentat",
+        "type": "Pentru cunoscatori",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1 lingurita de ceai / cana si se lasa la infuzat 1-2 min. Se serveste simplu.",
+        "min_infuzion": 1,
+        "max_infuzion": 2
+    },
+    {
+        "tea_id": "M422",
+        "name": "China Golden Speciality ",
+        "image": "https://cdn.dc5.ro/img-prod/439655-0-240.jpeg",
+        "ingredients": "Ceai negru chinezesc cultivat in provincia Yunnan, la atitudini de 1800-2100m, recoltat primvara. Aroma puternica usor intepatoare pastreaza caracterul teluric al tinutului Yunnan",
+        "type": "Pentru cunoscatori",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1 lingurita de ceai / cana si se lasa la infuzat 3-5 min. Se serveste simplu sau cu zahar",
+        "min_infuzion": 3,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M419",
+        "name": "Darjeeling Soom ",
+        "image": "https://cdn.dc5.ro/img-prod/439652-0-240.jpeg",
+        "ingredients": "Ceai negru Darjeeling ",
+        "type": "Pentru cunoscatori",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1 lingurita de ceai / cana si se lasa la infuzat 3-5 min. Se serveste simplu sau indulcit cu zahar",
+        "min_infuzion": 3,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M417",
+        "name": "Orange Grapefruit",
+        "image": "https://cdn.dc5.ro/img-prod/439650-0-240.jpeg",
+        "ingredients": "Bucati de mar, fulgi de morcov, frunze de mur si eucalipt, bucati de sfecla rosie, flori de hibiscus, lemongrass, mandarine si portocale, aroma de grapefruit si portocale",
+        "type": "Infuzie de plante",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 2 lingurite (2.5g) de ceai / cana si se lasa la infuzat 5-10 min. Se serveste cu zahar.",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M416",
+        "name": "Butter Truffle",
+        "image": "https://cdn.dc5.ro/img-prod/439649-0-240.jpg",
+        "ingredients": "Ceai negru (77%), fistic, chimion, fulgi de migdale, coriandru, piper roz, aroma",
+        "type": "Ceai negru",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1 lingurita de ceai / cana si se lasa la infuzat 3-5 min. Se serveste cu zahar.",
+        "min_infuzion": 3,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M415",
+        "name": "Redbush-Fire",
+        "image": "https://cdn.dc5.ro/img-prod/439648-0-240.jpg",
+        "ingredients": "Rooibos, sofranel, aroma naturala de portocala",
+        "type": "Ceai rosu - Rooibos",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 2 lingurite (2,5g) de ceai / cana si se lasa la infuzat 5 min. Se serveste cu zahar si lapte",
+        "min_infuzion": 0,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M413",
+        "name": "Almond",
+        "image": "https://cdn.dc5.ro/img-prod/439646-0-240.JPG",
+        "ingredients": "Bucatele de mar, migdale, scortisoara, sfecla rosie, aroma",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 2 lingurite (5g) de ceai / cana si se lasa la infuzat 5 min. Se serveste cu zahar",
+        "min_infuzion": 0,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M412",
+        "name": "Mango'n Friends",
+        "image": "https://cdn.dc5.ro/img-prod/439645-0-240.JPG",
+        "ingredients": "Ananas confiat, mango confiat, portocale, sofranel, mandarine, capsuni",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 2-3 lingurite de ceai / cana si se lasa la infuzat 5-10 min. Se serveste cu zahar. Se poate bea si rece",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M405",
+        "name": "Crazy Fruits Caramel",
+        "image": "https://cdn.dc5.ro/img-prod/439638-0-240.JPG",
+        "ingredients": "Bucati de mar, flori de hibiscus, coaja de macese, bucatele de caramel (lapte degresat indulcit, zahar, glucoza), unt, frunze de mur, aroma",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 2 lingurite (2,5g) de ceai / cana si se lasa la infuzat 5 min. Se serveste cu zahar ",
+        "min_infuzion": 0,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M402",
+        "name": "Don Pistacchio",
+        "image": "https://cdn.dc5.ro/img-prod/439635-0-240.JPG",
+        "ingredients": "Cubulete de ananas, zahar, bucatele de mar, frunze de mur, fistic, fulgi de ciocolata alba (zahar, unt de cacao, lapte praf, dextroza, lecitina de soia), bezele (sirop de glucoza, zahar, apa, gelatina, amidon, vanilie)",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 2 lingurite (5g) de ceai / cana si se lasa la infuzat 5-10 min. Se serveste cu zahar ",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M401",
+        "name": "Orange Dream",
+        "image": "https://cdn.dc5.ro/img-prod/439634-0-240.jpg",
+        "ingredients": "Bucatele de mar, portocale si mandarine, aroma naturala, flori de galbenele, frunze de capsun salbatic",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 2 lingurite de ceai / cana si se lasa la infuzat 5-10 min. Se serveste cu zahar",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M468",
+        "name": "Gingerbread Sencha",
+        "image": "https://cdn.dc5.ro/img-prod/439632-0-240.jpg",
+        "ingredients": "Ceai verde, coaja de portocala, anason stelat, migdale, samburi de caise, ovaz salbatic, piper roz, scortisoara, aroma naturala, petale de trandafir",
+        "type": "Ceai verde",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se lasa sa se raceasca 2-3 min, se adauga 1 lingurita de ceai / cana si se lasa la infuzat 2-3 min. Se serveste simplu",
+        "min_infuzion": 2,
+        "max_infuzion": 3
+    },
+    {
+        "tea_id": "M467",
+        "name": "Aronia Cassis",
+        "image": "https://cdn.dc5.ro/img-prod/439631-0-240.jpeg",
+        "ingredients": "Rooibos, bucatele de ghimbir, fructe de aronia, aroma naturala, coacaze rosii, capsuni, flori de albastrele. ",
+        "type": "Ceai rosu - Rooibos",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 2 lingurite de ceai / cana si se lasa la infuzat 5-7 min. Se serveste cu zahar si lapte",
+        "min_infuzion": 5,
+        "max_infuzion": 7
+    },
+    {
+        "tea_id": "M463",
+        "name": "Caramel Sesame Cookie",
+        "image": "https://cdn.dc5.ro/img-prod/439627-0-240.JPG",
+        "ingredients": "Ceai verde, migdale, nuci, bucatele de caramel, bucatele crocante de alune, aroma",
+        "type": "Ceai verde",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 2 lingurite (2,5g) de ceai / cana si se lasa la infuzat 5 min. Se serveste cu zahar",
+        "min_infuzion": 0,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M462",
+        "name": "Japan Kukicha",
+        "image": "https://cdn.dc5.ro/img-prod/439626-0-240.jpeg",
+        "ingredients": "Ceai verde japonez Kukicha",
+        "type": "Ceai verde",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se lasa sa se raceasca 2-3 minute, se adauga 1 lingurita de ceai / cana si se lasa la infuzat 2 minute. Se serveste simplu",
+        "min_infuzion": 0,
+        "max_infuzion": 2
+    },
+    {
+        "tea_id": "M460",
+        "name": "Ginger Aronia",
+        "image": "https://cdn.dc5.ro/img-prod/439624-0-240.jpeg",
+        "ingredients": "Bucati de ghimbir (22%), seminte de fenicul, anason, lemongrass, fructe de aronia, salvie, radacina de lemn-dulce, petale de trandafir, menta, anason stelat. A se evita consumul excesiv",
+        "type": "Infuzie de plante",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1 lingurita de ceai / cana si se lasa la infuzat 5 min. Se serveste cu zahar si lapte.",
+        "min_infuzion": 0,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M455",
+        "name": "Men's Activity Ayurvedic",
+        "image": "https://cdn.dc5.ro/img-prod/439619-0-240.JPG",
+        "ingredients": "Scortisoara, fenicul, ghimbir, menta, cardamom, roscove, radacina de lemn-dulce, salvie, piper negru, cuisoare, sarsaparilla, rozmarin, frunze de damiana",
+        "type": "Pentru cunoscatori",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 1 lingurita de ceai / cana si se lasa la infuzat 5-7 min. Se serveste cu zahar",
+        "min_infuzion": 5,
+        "max_infuzion": 7
+    },
+    {
+        "tea_id": "M453",
+        "name": "The Emperor's 7 Treasures",
+        "image": "https://cdn.dc5.ro/img-prod/439617-0-240.JPG",
+        "ingredients": "Ceai negru (52%), ceai verde (44%), petale de trandafir, petale de floarea-soarelui, aroma de piersici",
+        "type": "Ceai negru",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 2 lingurite (2,5g) de ceai / cana si se lasa la infuzat 3 min. Se serveste cu zahar",
+        "min_infuzion": 0,
+        "max_infuzion": 3
+    },
+    {
+        "tea_id": "M451",
+        "name": "Magic",
+        "image": "https://cdn.dc5.ro/img-prod/439615-0-240.jpeg",
+        "ingredients": "Rooibos verde, coaja de cacao, coaja de portocala, fulgi de cocos, radacina de lemn-dulce, frunze de zmeur, menta, flori de albastrele, petale de galbenele. A se evita consumul excesiv",
+        "type": "Infuzie de plante",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 2 lingurite (2,5g) de ceai / cana si se lasa la infuzat 5-10 min. Se serveste cu zahar",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M450",
+        "name": "Vietnam Rarity",
+        "image": "https://cdn.dc5.ro/img-prod/439614-1-240.jpeg",
+        "ingredients": "Ceai verde vietnamez",
+        "type": "Ceai verde",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se lasa sa raceasca 2-3 minute, se adauga 1 lingurita de ceai / cana si se lasa la infuzat 2 minute",
+        "min_infuzion": 0,
+        "max_infuzion": 2
+    },
+    {
+        "tea_id": "M448",
+        "name": "Colourful",
+        "image": "https://cdn.dc5.ro/img-prod/439612-2-240.jpeg",
+        "ingredients": "Bucati de mar, fenicul, coaja de portocala, lemongrass, petale de trandafir, flori de albastrele, galbenele.",
+        "type": "Infuzie de plante",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 2 lingurite de ceai / cana si se lasa la infuzat 5 min. Se serveste cu zahar sau cu miere",
+        "min_infuzion": 0,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M447",
+        "name": "Chocolate Orange",
+        "image": "https://cdn.dc5.ro/img-prod/439611-0-240.JPG",
+        "ingredients": "Rooibos, fulgi de ciocolata (zahar, boabe de cacao macinate, unt de cacao, pudra de cacao, lecitina din soia), coaja de portocala, flori de portocal, aroma",
+        "type": "Ceai rosu - Rooibos",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 2 lingurite (2,5g) de ceai / cana si se lasa la infuzat 7-10 min. Se serveste cu zahar",
+        "min_infuzion": 7,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M444",
+        "name": "Tiramisu Marscapone",
+        "image": "https://cdn.dc5.ro/img-prod/439608-0-240.JPG",
+        "ingredients": "Rooibos, fulgi de ciocolata (zahar, unt de cacao, cacao, lecitina din soia), alune caramelizate, bucatele de caramel (lapte condensat degresat, zahar, glucoza, grasime din unt, sorbitol, mono si dicliceride ale acizilor grasi),  granule de iaurt, boabe de cafea prajite, musetel",
+        "type": "Ceai rosu - Rooibos",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 2 lingurite (5g) de ceai / cana si se lasa la infuzat 7-10 min. Se serveste cu zahar si lapte",
+        "min_infuzion": 7,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M443",
+        "name": "Stracciatella Ice Cream",
+        "image": "https://cdn.dc5.ro/img-prod/439607-0-240.jpeg",
+        "ingredients": "Rooibos, scoarta de cacao, bezele, fulgi de ciocolata, aroma naturala, flori de albastrele",
+        "type": "Ceai rosu - Rooibos",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 2 lingurite (2,5g) de ceai / cana si se lasa la infuzat 5-7 min. Se serveste cu miere si lapte",
+        "min_infuzion": 5,
+        "max_infuzion": 7
+    },
+    {
+        "tea_id": "M441",
+        "name": "Caramel",
+        "image": "https://cdn.dc5.ro/img-prod/439605-0-240.JPG",
+        "ingredients": "Rooibos, caramel (lapte condensat degresat, zahar, glucoza, grasime din unt, sorbitol, mono si digliceride ale acizilor grasi), alune caramelizate",
+        "type": "Ceai rosu - Rooibos",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1-2 lingurite de ceai / cana si se lasa la infuzat 5-8 minute. Se serveste cu zahar si lapte",
+        "min_infuzion": 5,
+        "max_infuzion": 8
+    },
+    {
+        "tea_id": "M440",
+        "name": "Magic Moon",
+        "image": "https://cdn.dc5.ro/img-prod/439604-0-240.JPG",
+        "ingredients": "Ceai negru (57%), ceai verde (20%), papaya confiata, coaja de macese, petale de trandafir si de floarea-soarelui, aroma de capsuni",
+        "type": "Ceai negru",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 2 lingurite (2,5g) de ceai / cana si se lasa la infuzat 2 min. Se serveste cu zahar",
+        "min_infuzion": 0,
+        "max_infuzion": 2
+    },
+    {
+        "tea_id": "M439",
+        "name": "Apple Walnut Cream",
+        "image": "https://cdn.dc5.ro/img-prod/439603-0-240.jpg",
+        "ingredients": "Bucati de mar, bezele (sirop de glucoza, zahar, apa, gelatina, amidon, vanilie), felii de mar, nuci, aroma de mere si nuci",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 2 lingurite de ceai / cana si se lasa la infuzat 5-10 min. Se serveste cu zahar",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M438",
+        "name": "Chocolate Strawberry",
+        "image": "",
+        "ingredients": "Coaja de cacao, coaja de macese, bucati de mar, flori de hibiscus, coaja de portocala, arome naturale, bucati de capsuni, flori de galbenele.",
+        "type": "Ceai rosu - Rooibos",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 2 lingurite de ceai / cana si se lasa la infuzat 5-10 min. Se serveste cu zahar",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M435",
+        "name": "Heavenly Tea",
+        "image": "https://cdn.dc5.ro/img-prod/439599-0-240.JPG",
+        "ingredients": "Ceai negru (77%), petale de floarea-soarelui, flori de nalba, aroma de piersici si caise",
+        "type": "Ceai negru",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 2 lingurite (2,5g) de ceai / cana si se lasa la infuzat 3-5 min. Se serveste cu zahar",
+        "min_infuzion": 3,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M434",
+        "name": "Typ Ayran Mint",
+        "image": "https://cdn.dc5.ro/img-prod/439598-0-240.jpg",
+        "ingredients": "Bucati de mar, coaja de portocala, menta, lemongrass, coji de macese, frunze de capsun salbatic, frunze de mur, aroma naturala, busuioc, ulei de limeta",
+        "type": "Infuzie de plante",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 2 lingurite (2,5g) de ceai / cana si se lasa la infuzat 5 min. Se serveste cu zahar.",
+        "min_infuzion": 0,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M431",
+        "name": "Old Love",
+        "image": "https://cdn.dc5.ro/img-prod/439595-0-240.JPG",
+        "ingredients": "Flori de hibiscus, coaja de macese, bucati de mar, bobite de soc, frunze de mur, mure, capsuni, zmeura, aroma de capsuni si zmeura",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 2 lingurite (2,5g) de ceai / cana si se lasa la infuzat 5-10 min. Se serveste cu zahar ",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M430",
+        "name": "China Sencha",
+        "image": "https://cdn.dc5.ro/img-prod/439594-0-240.jpeg",
+        "ingredients": "Ceai verde chinezesc Sencha. Unul dintre cele mai bune sortimente, de un galben aprins, aroma de iarba proaspata, consumat ca remediu fizic si spiritual",
+        "type": "Ceai verde",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 2 lingurite (2,5g) de ceai / cana si se lasa la infuzat 5 min. Se serveste cu zahar.",
+        "min_infuzion": 0,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M429",
+        "name": "Peanut Chocolate Caramel",
+        "image": "https://cdn.dc5.ro/img-prod/439593-0-240.jpg",
+        "ingredients": "Rooibos, coaja de cacao, fulgi de migdale, bucatele crocante de caramel, arome",
+        "type": "Ceai rosu - Rooibos",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1-2 lingurite de ceai / cana si se lasa la infuzat 5-8 minute. Se serveste cu zahar si lapte.",
+        "min_infuzion": 5,
+        "max_infuzion": 8
+    },
+    {
+        "tea_id": "M771",
+        "name": "Milky / Raspberry Flavoured Oolong",
+        "image": "https://cdn.dc5.ro/img-prod/291714028-0-240.jpeg",
+        "ingredients": "Ceai verde, Ceai Oolong, granule de zmeura (10%), aroma, petale de trandafir, flori de albastrele.",
+        "type": "Ceai verde",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1 lingurita (2.5g) de ceai si se lasa la infuzat 2 minute. Se serveste cu zahar.",
+        "min_infuzion": 0,
+        "max_infuzion": 2
+    },
+    {
+        "tea_id": "M748",
+        "name": "Mocca / Cream",
+        "image": "https://cdn.dc5.ro/img-prod/259129-0-240.jpg",
+        "ingredients": "Rooibos, honeybush, boabe de cafea, seminte de guarana, mate, bucatele de ciocolata alba (zahar, unt de cacao, lapte praf, fosfat de amoniu), aroma, vanilie, albastrele",
+        "type": "Ceai rosu - Rooibos",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 1-2 lingurite de ceai / cana si se lasa la infuzat 5 min. Se serveste cu miere si lapte",
+        "min_infuzion": 0,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M747",
+        "name": "Citrus / Forest Fruits ",
+        "image": "https://cdn.dc5.ro/img-prod/259128-0-240.jpeg",
+        "ingredients": "Bucatele de mar si de portocale, rooibos verde, frunze de verbina si de mure, coacaze negre si rosii, zmeura",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 3 lingurite de ceai / cana si se lasa la infuzat 5-10 min. Se serveste cu zahar. Se poate servi si rece.",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M745",
+        "name": "Cinnamon / Liquorice Root Mint Spice Blend",
+        "image": "https://cdn.dc5.ro/img-prod/259126-0-240.jpeg",
+        "ingredients": "Scortisoara, stafide, radacina de lemn-dulce, menta. A se evita consumul excesiv",
+        "type": "Infuzie de plante",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 2 lingurite (5g) de ceai / cana si se lasa la infuzat 5 min. Se serveste cu zahar. Se poate servi si rece.",
+        "min_infuzion": 0,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M744",
+        "name": "Peppermint / Lemon",
+        "image": "https://cdn.dc5.ro/img-prod/259125-0-240.jpeg",
+        "ingredients": "​Menta, lemongrass, fulgi de morcov, radacina de lemn-dulce, macese, coaja de portocala, aroma",
+        "type": "Infuzie de plante",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 1-2 lingurite de ceai/cana si se lasa la infuzat 5-10 min. Se serveste cu zahar. Se poate servi si rece",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M740",
+        "name": "Fm Plum / Vanilla Cranberry Naturally",
+        "image": "https://cdn.dc5.ro/img-prod/259122-0-240.jpeg",
+        "ingredients": "Bucati de gutui, mere, prune, boabe de cacao, scortisoara, fulgi de cocos, aromă, merisoare, flori de galbenele, vanilie.",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 3 lingurite de ceai/cana si se lasa la infuzat 5-10 minute. Se serveste cu zahar. Se poate servi si rece.",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M734",
+        "name": "Pomegranate Orange",
+        "image": "https://cdn.dc5.ro/img-prod/259117-0-240.jpg",
+        "ingredients": "Bucati de mar (mar, acid citric, aroma, vitamina C, bucatele de rodie, hibiscus, radacina de lemn-dulce, frunze de verbina si de menta, lamaita, flori de rodie si de lumanarica)",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 2 lingurite (5g) de ceai / cana si se lasa la infuzat 5 min. Se serveste cu zahar. Se poate servi si rece.",
+        "min_infuzion": 0,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M732",
+        "name": "Exotic / Vanilla Natural Flavoured",
+        "image": "https://cdn.dc5.ro/img-prod/259115-0-240.jpeg",
+        "ingredients": "Ceai verde, fulgi de banana (banana, ulei de cocos, zahar din trestie, miere), lemongrass, coaja de portocala, bucati de papaya si de ananas, petale de floarea-soarelui",
+        "type": "Ceai verde",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se lasă să se racească 2-3 min, se adaugă 1 linguriță de ceai/cană și se lasă la infuzat 2 minute. Se servește simplu sau cu miere",
+        "min_infuzion": 0,
+        "max_infuzion": 2
+    },
+    {
+        "tea_id": "M524",
+        "name": "Japan Bancha",
+        "image": "https://cdn.dc5.ro/img-prod/2098714585-2-240.jpeg",
+        "ingredients": "Ceai verde Bancha",
+        "type": "Ceai verde",
+        "prep_method": "Luați o linguriță mare (sau 2 grame) de Japan Bancha și puneți-l într-un infuzor de ceai.Fierbe fierbătorul până ajunge la 75-80°C sau chiar când fierbătorul începe să bubuie.Lăsați la infuzat 1-3 minute. Scoateți infuzorul și bucurați-vă de o ceașcă de ceai delicioasă!",
+        "min_infuzion": 1,
+        "max_infuzion": 3
+    },
+    {
+        "tea_id": "M761",
+        "name": "Chocolate Kiss",
+        "image": "https://cdn.dc5.ro/img-prod/1977924-0-240.jpeg",
+        "ingredients": " Rooibos, coji de cacao, bucăți de boabe de cacao, coajă de portocală, coajă de scorțișoară, stele de ciocolată , catuaba, fulgi de zmeură, aromă, santal, bucăți de sfeclă roșie",
+        "type": "Ceai rosu - Rooibos",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 2 lingurite (5g) de ceai / cana si se lasa la infuzat 7-10 min. Se serveste cu lapte si miere.",
+        "min_infuzion": 7,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M752",
+        "name": "Chia / Chai ",
+        "image": "",
+        "ingredients": "Scortisoara, seminte de Chia, coji de boabe de cacao, ghimbir, coji de portocala, sofranel. Gust condimentat de scortisoara, cacao, ghimbir.",
+        "type": "Pentru cunoscatori",
+        "prep_method": "Se aduce apa la temperatura de fierbele, se adauga 1 lingurita de ceai / cana si se lasa la infuzat 3 minute. Se serveste cu zahar",
+        "min_infuzion": 0,
+        "max_infuzion": 3
+    },
+    {
+        "tea_id": "M757",
+        "name": "Pineapple / Coconut",
+        "image": "https://cdn.dc5.ro/img-prod/1977921-1-240.jpeg",
+        "ingredients": "Bucati de mar, chipsuri din banane, cuburi de smochine, nuca de cocos rasa, bucati de ananas, aroma, bucati de ghimbir, fulgi de catina alba, bucati de vanilie.",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 1 lingurita (2.5g) ceai/cana si se lasa la infuzat 2 min. Se serveste cu miere.",
+        "min_infuzion": 0,
+        "max_infuzion": 2
+    },
+    {
+        "tea_id": "M763",
+        "name": "Green Coffee Beans",
+        "image": "https://cdn.dc5.ro/img-prod/1977918-0-240.jpeg",
+        "ingredients": "Ceai verde, boabe de cafea verde, fructe goji, aroma, cuburi de acai, mar, suc concentrat de mere, hibiscus alb, sfecla rosie. Gust delicat fructat de acai-goji",
+        "type": "Ceai verde",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se lasa sa se raceasca 2-3 minute, se adauga 1 lingurita de ceai / cana si se lasa la infuzat 3 min. Se serveste simplu",
+        "min_infuzion": 0,
+        "max_infuzion": 3
+    },
+    {
+        "tea_id": "M755",
+        "name": "Moringa Mint",
+        "image": "https://cdn.dc5.ro/img-prod/1977917-0-240.jpeg",
+        "ingredients": "Ceai verde, frunze de menta, frunze de moringa, frunze de spearmint, albastrele, petale de floarea soarelui. Gust fin de menta",
+        "type": "Ceai verde",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se lasa sa se raceasca 2-3 min, se adauga 1 lingurita de ceai / cana si se lasa la infuzat 2 min. Se serveste cu zahar",
+        "min_infuzion": 0,
+        "max_infuzion": 2
+    },
+    {
+        "tea_id": "M754",
+        "name": "Ginger / Lemon ",
+        "image": "https://cdn.dc5.ro/img-prod/1977915-2-240.jpeg",
+        "ingredients": "Ceai verde, ghimbir, coaja de lamaie, aroma, petale de galbenele. Gust armonios de ghimbir si lamaie",
+        "type": "Ceai verde",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 1 lingurita de ceai / cana si se lasa la infuzat 2-3 min. Se serveste cu zahar",
+        "min_infuzion": 2,
+        "max_infuzion": 3
+    },
+    {
+        "tea_id": "M502",
+        "name": "Lotta Peach Kiwi",
+        "image": "https://cdn.dc5.ro/img-prod/1976986-0-240.jpeg",
+        "ingredients": "Bucati de mar, cuburi de ananas, flori de hibiscus, felii de kiwi uscat, bucati de piersica rosie si galbena, suc concentrat de morcov si capsuni, piure de mandarine, aroma",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temperatura de fierbele, se adauga 2 lingurite (5g) de ceai / cana si se lasa la infuzat 5-10 minute. Se serveste cu zahar.",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M497",
+        "name": "Elephant Blend",
+        "image": "https://cdn.dc5.ro/img-prod/1976981-0-240.jpeg",
+        "ingredients": "Felii de banane, fulgi de cocos, rooibos, fulgi de mango, fulgi de ananas, fulgi de papaya, felii de portocala, arome",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 2 lingurite de ceai / cana si se lasa la infuzat 5-10 minute. Se serveste cu zahar.",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M495",
+        "name": "Raspberry & Flowers",
+        "image": "https://cdn.dc5.ro/img-prod/1976979-0-240.jpeg",
+        "ingredients": "Bucati de mar, ceai verde (10%), bucati de pere liofilizate, arome, bucati de zmeura liofilizate, musetel roman, petale de floarea soarelui. Aciditate scazuta",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 2 lingurite (5g) de ceai / cana si se lasa la infuzat 5-10 minute. Se serveste cu zahar",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M788",
+        "name": "5-10on / Creme Brulee",
+        "image": "https://cdn.dc5.ro/img-prod/1949880313-0-240.jpeg",
+        "ingredients": "Rooibos, bucati de mere, bucati de curmale, scortisoara, cuburi de caramel, stele de zahar, aroma.",
+        "type": "Ceai rosu - Rooibos",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 1 lingurita (2.5g) de ceai / cana si se lasa la infuzat 5-10 minute.",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M790",
+        "name": "Winter praline",
+        "image": "https://cdn.dc5.ro/img-prod/1949880309-0-240.jpeg",
+        "ingredients": "Ceai negru, coji de boabe de cacao, fulgi de ciocolata alba, fulgi de ciocolata neagra, aroma naturala, aroma naturala de rom, sofranel",
+        "type": "Ceai negru",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1 lingurita (2.5 gr) de ceai / cana si se lasa la infuzat 3-5 min. Se serveste cu zahar.",
+        "min_infuzion": 3,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M787",
+        "name": "Pine Green",
+        "image": "https://cdn.dc5.ro/img-prod/1949880305-0-240.jpeg",
+        "ingredients": "",
+        "type": "Ceai verde",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 2 lingurite (2,5g) de ceai / cana si se lasa la infuzat 5 min. Se serveste cu zahar",
+        "min_infuzion": 0,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M784",
+        "name": "Almond / Orange",
+        "image": "https://cdn.dc5.ro/img-prod/1949880301-0-240.jpeg",
+        "ingredients": "Bucati de mere, malt de orz, migdale, petale de trandafir, aroma naturala de portocale, aroma, ceai negru.",
+        "type": "Ceai negru",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1 lingurita (2.5 gr) de ceai / cana si se lasa la infuzat 3-5 min. Se serveste cu zahar.",
+        "min_infuzion": 3,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M334",
+        "name": "Snow Flurry",
+        "image": "https://cdn.dc5.ro/img-prod/185544-0-240.jpeg",
+        "ingredients": "Rooibos, zahăr Ice Crystal (zahăr, făină de orez, ulei de arahide, aromă, tragant), amarant, aromă, flori de albăstrele",
+        "type": "Infuzie de plante",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 1 lingurita (2.5g) de ceai / cana si se lasa la infuzat 5-10 minute. Se serveste cu miere si lapte",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M331",
+        "name": "Santa's Servant",
+        "image": "https://cdn.dc5.ro/img-prod/3000000017081-2468965-240.jpg",
+        "ingredients": "Ceai verde, bucățele de scorțișoară, bucățele de măr, fulgi de migdale, aromă, vanilie",
+        "type": "Ceai verde",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se lasa sa se raceasca 2-3 min., se adauga 1 lingurita de ceai (2.5g) pe cana si se lasa la infuzat 2 min.",
+        "min_infuzion": 0,
+        "max_infuzion": 2
+    },
+    {
+        "tea_id": "M330",
+        "name": "Star Dust",
+        "image": "https://cdn.dc5.ro/img-prod/3000000017067-2468274-240.jpg",
+        "ingredients": "Ceai negru, hrisca coapta, migdale caramelizate (migdale, zahar, apa, vanilina, scortisoara, acid tartaric), arome, migdale macinate, petale de albastrele ",
+        "type": "Ceai negru",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1 lingurita (2.5 gr) de ceai / cana si se lasa la infuzat 3-5 min.",
+        "min_infuzion": 3,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M332",
+        "name": "Christmas Cookie",
+        "image": "https://cdn.dc5.ro/img-prod/185539-0-240.jpg",
+        "ingredients": "Ceai verde, bucatele de scortisoara, fasii de migdale, aroma, piper rosu, cuisoare, nucsoara",
+        "type": "Ceai verde",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se lasa sa se raceasca 2-3 minute, se adauga 1 lingurita de ceai / cana si se lasa la infuzat 1-2 minute. Se serveste simplu.",
+        "min_infuzion": 1,
+        "max_infuzion": 2
+    },
+    {
+        "tea_id": "M329",
+        "name": "Belgian Chocolate / Truffle",
+        "image": "https://cdn.dc5.ro/img-prod/3000000017043-2468268-240.jpg",
+        "ingredients": "Ceai negru, alune caramelizate (zahar, alune de padure), boabe de cacao maruntite, aroma.",
+        "type": "Ceai negru",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1 lingurita (2.5 gr) de ceai pe cana si se lasa la infuzat 3-5 min.",
+        "min_infuzion": 3,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M326",
+        "name": "Ginger Kiss",
+        "image": "https://cdn.dc5.ro/img-prod/184914-0-240.jpeg",
+        "ingredients": "Honeybush, bucatele de pere, fulgi de cocos, bucatele de ghimbir confiat (ghimbir, zahar), extract de jatoba, extract de catuaba, scortisoara, aroma, granule de ghimbir.",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 3 lingurite de ceai / cana si se lasa la infuzat 5-10 minute. Se serveste cu zahar. Se poate servi si rece.",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M319",
+        "name": "Winter Treat",
+        "image": "https://cdn.dc5.ro/img-prod/184905-0-240.jpg",
+        "ingredients": "Hrisca prajita, fulgi de nuca de cocos si de capsuni, piper Pimienta, arome, piper roz, cardamon, neghina rosie, Cassia",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 1 lingurita de ceai / cana si se lasa la infuzat 3-5 min. Se serveste cu zahar",
+        "min_infuzion": 3,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M296",
+        "name": "Pu Erh Gingerbread",
+        "image": "https://cdn.dc5.ro/img-prod/3000000016121-2758319-240.jpg",
+        "ingredients": " Pu Erh (65%), ceai negru (5%), cuişoare, migdale, bucăţi din boabe de cacao, anason stelat, coji de boabe de cacao, flori de scorţişoară, arome, piper roz",
+        "type": "Ceai negru",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 1 lingurita (2.5 gr) de ceai pe cana si se lasa la infuzat 3-5 min.",
+        "min_infuzion": 3,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M782",
+        "name": "Mango / Pineapple",
+        "image": "https://cdn.dc5.ro/img-prod/1836873100-0-240.jpeg",
+        "ingredients": "Cubulete de ananas confiat, cubulete de mango, felii de morcov, aroma naturala papaya, chipsuri din nuca de cocos, goji, felii de smochine.",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 2 lingurite de ceai / cana si se lasa la infuzat 5-10 min. Se serveste cu zahar.",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M781",
+        "name": "Cascara Orange",
+        "image": "https://cdn.dc5.ro/img-prod/1778325094-0-240.jpeg",
+        "ingredients": "Cascara (pulpa din coji de boabe de cafea), bucati de mere, felii de portocale, floricele de porumb, aroma naturala de portocale, flori de galbenele.",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temperatura de fierbele, se adauga 3 lingurite (2.5g) de ceai / cana si se lasa la infuzat 5-10 minute. Se serveste cu zahar.",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M485",
+        "name": "Sea of Blossoms",
+        "image": "https://cdn.dc5.ro/img-prod/1659736-0-240.jpeg",
+        "ingredients": "Bucati de mere, flori de iarba-neagra, flori de tei alb, arome, flori de galbenele, flori de nalba, floare de sofranel, petale de trandafir",
+        "type": "Infuzie de plante",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adauga 1-2 lingurite  de ceai / cana si se lasa la infuzat 5-10 min. Se serveste cu zahar sau cu miere",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M484",
+        "name": "Apple & Nuts",
+        "image": "https://cdn.dc5.ro/img-prod/1659733-0-240.jpeg",
+        "ingredients": "Bucăți de mere, coajă de portocală, aromă anason stelat, frunze de mur, frunze de moringa, bucăți de migdale, fistic, coajă de măceșe, scorțișoară",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adaugă 2-3 lingurițe de ceai / cană și se lasă la infuzat 5-10 minute. Se servește cu zahăr. Se poate servi și rece",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M488",
+        "name": "Lime Quark",
+        "image": "https://cdn.dc5.ro/img-prod/1659732-0-240.jpeg",
+        "ingredients": "Ceai negru (62%) cuburi de ananas (zahăr), lemongrass, arome, granule uscate de iaurt (lapte, zahăr, dextrină de malț, acid citric), flori de gălbenele, granule uscate de lămâie, coajă de lămâie, flori de gălbenele.",
+        "type": "Ceai negru",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adaugă 1 linguriță de ceai / cană și se lasă la infuzat 3-5 minute. Se servește cu zahăr",
+        "min_infuzion": 3,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M483",
+        "name": "Truffle & Ginger",
+        "image": "https://cdn.dc5.ro/img-prod/1659731-0-240.jpeg",
+        "ingredients": "Ceai negru (73%), cuburi de ghimbir (zahăr, ghimbir, agent de acidifiere, acid citric), coji de cacao, bucăți de migdale, arome, piper roz.",
+        "type": "Ceai negru",
+        "prep_method": "Se aduce apa la temp. de fierbere, se adaugă 1 linguriță de ceai / cană și se lasă la infuzat 3-5 minute. Se servește cu zahăr.",
+        "min_infuzion": 3,
+        "max_infuzion": 5
+    },
+    {
+        "tea_id": "M487",
+        "name": "Flavored Raspberry Tart",
+        "image": "https://cdn.dc5.ro/img-prod/1659730-0-240.jpeg",
+        "ingredients": "Ceai verde (60%), bucăți de ananas (zahar) cuburi de mere, arome, zmeură întreagă uscată, bucăți uscate de zmeură, flori de imortele",
+        "type": "Ceai verde",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adaugă 1 linguriță de ceai / cană și se lasă la infuzat 1-2 minute. Se servește simplu sau cu zahăr",
+        "min_infuzion": 1,
+        "max_infuzion": 2
+    },
+    {
+        "tea_id": "M521",
+        "name": "In Your Power",
+        "image": "https://cdn.dc5.ro/img-prod/1542500657-0-240.jpeg",
+        "ingredients": "Honeybush, scortisoara, ghimbir, fenicul, anason, flori de salvie, cimbru, cuisoare, felii de turmeric, radacina de lemn dulce.",
+        "type": "Infuzie de plante",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 2 lingurite de ceai / cana si se lasa la infuzat 5-10 min. Se serveste cu zahar.",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M512",
+        "name": "A True Fairytale",
+        "image": "https://cdn.dc5.ro/img-prod/1108492617-0-240.png",
+        "ingredients": "Mere, ananas, fulgi de morcov, acid citric, arome",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 2 lingurite (5g) de ceai si se lasa la infuzat 5-10 minute. ",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    },
+    {
+        "tea_id": "M507",
+        "name": "Miami Ice Peach",
+        "image": "https://cdn.dc5.ro/img-prod/1108492545-0-240.png",
+        "ingredients": "Hibiscus, albăstrele, căpșune, mere, papaya, arome",
+        "type": "Infuzie de fructe",
+        "prep_method": "Se aduce apa la temperatura de fierbere, se adauga 3 lingurite (7.5 gr) de ceai pe cana si se lasa la infuzat 5-10 min",
+        "min_infuzion": 5,
+        "max_infuzion": 10
+    }
+]

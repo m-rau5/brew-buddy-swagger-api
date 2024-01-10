@@ -1,6 +1,9 @@
 from .extensions import db
 from flask_login import UserMixin
 
+# TO CREATE: we can use: "flask shell" -> "from app.models import *"" -> "db.create_all()"" to create the db
+# TO VIEW: we can use -> "sqlite3 instance/db.sqlite3" -> ".tables" to see the status of tables
+
 
 class Following(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -30,10 +33,6 @@ class User(db.Model, UserMixin):
                                     backref=db.backref(
                                         'main_user', lazy='joined'),
                                     lazy='dynamic')
-
-
-# we can use flask shell: from app.models import * and db.create_all() to create the db
-# then we can use sqlite3 instance/db.sqlite3 to see the status of tables
 
 
 class Tea(db.Model):
