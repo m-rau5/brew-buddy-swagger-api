@@ -5,7 +5,7 @@ from ..extensions import db, api
 from flask import abort
 # from .script import getTeas  -> used to insert ALL teas for the first time
 
-ns2 = Namespace("api")  # essentially /api
+ns2 = Namespace("api")
 
 
 @ns2.route("/users")

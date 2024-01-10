@@ -1,13 +1,12 @@
 import json
-from ..app.extensions import db
-from ..app.models import Tea
+from app.extensions import db
+from app.models import Tea
 
 # Used for the first time insertion of the webscraped teas in the database
 
 
 def getTeas():
-
-    with open("./app/data_final.json", "r", encoding='utf-8') as file:
+    with open("tea_inserter/data_final.json", "r", encoding='utf-8') as file:
         jsFile = json.load(file)
 
     for elem in jsFile:
