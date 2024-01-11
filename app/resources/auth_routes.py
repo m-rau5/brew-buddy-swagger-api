@@ -1,6 +1,6 @@
 from flask_restx import Resource, Namespace
 from ..models import User
-from ..api_models import user_input_model, user_login_model
+from ..api_models import user_input_model, user_login_model, user_resp_model
 from ..extensions import db, bcrypt, api
 import re
 from flask_login import login_user, login_required, logout_user, current_user
@@ -13,6 +13,11 @@ def check_email_format(email):
     if (re.fullmatch(regex, email)):
         return True
     return False
+
+
+@auth_ns.marshal_with(user_resp_model)
+def return_user(user):
+    return user, 200
 
 
 @auth_ns.route("/login")
@@ -32,8 +37,7 @@ class UserLogin(Resource):
             if (bcrypt.check_password_hash(user.password, auth_ns.payload["password"])):
                 login_user(user, remember=True)
                 msg = "Login successfull."
-                print(msg)
-                return {'message': msg}, 200
+                return return_user(user)
             else:
                 msg = "Password is incorrect."
                 print(msg)

@@ -44,6 +44,13 @@ user_input_model = api.model("UserInput",
                                  "password": fields.String
                              })
 
+user_resp_model = api.model("UserResp",
+                            {
+                                "id": fields.Integer,
+                                "name": fields.String,
+                                "email": fields.String
+                            })
+
 user_login_model = api.model("UserLogin",
                              {
                                  "email": fields.String,
