@@ -1,7 +1,7 @@
 from flask_restx import Resource, Namespace
 from ..models import User
 from ..api_models import user_input_model, user_login_model
-from ..extensions import db, api, bcrypt
+from ..extensions import db, bcrypt, api
 from flask import abort
 import re
 from flask_login import login_user, login_required, logout_user, current_user

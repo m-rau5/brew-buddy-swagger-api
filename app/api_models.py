@@ -1,5 +1,6 @@
-from .extensions import api
 from flask_restx import fields
+from .extensions import api
+
 
 tea_model = api.model("Tea",
                       {
@@ -63,3 +64,8 @@ follow_update_model = api.model("Firend",
                                     "user_id": fields.Integer,
                                     "followed_id": fields.Integer
                                 })
+
+follow_view_model = api.model("Firend",
+                              {
+                                  "followed_id": fields.Integer
+                              })

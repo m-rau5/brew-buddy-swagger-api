@@ -1,9 +1,7 @@
 from flask_restx import Resource, Namespace
-from ..models import Tea, User
-from flask import jsonify
-from ..api_models import tea_model, user_model, tea_input_model, user_input_model, user_login_model
+from ..models import Tea
+from ..api_models import tea_model, tea_input_model
 from ..extensions import db, api
-from flask_login import login_required, current_user
 # from .script import getTeas  -> used to insert ALL teas for the first time
 
 tea_ns = Namespace("api")  # essentially /api

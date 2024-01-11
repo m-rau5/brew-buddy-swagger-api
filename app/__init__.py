@@ -1,9 +1,9 @@
 from flask import Flask
-from .extensions import api, db, bcrypt, login_manager
+from .extensions import db, bcrypt, login_manager, api
 from .resources.auth_routes import auth_ns
+from .resources.friend_routes import friend_ns
 from .resources.tea_routes import tea_ns
 from .resources.user_routes import users_ns
-from .resources.friend_routes import friend_ns
 from flask_cors import CORS
 
 from .models import User

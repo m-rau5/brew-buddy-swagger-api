@@ -26,7 +26,7 @@ class UserApi(Resource):
         user = User.query.get(id)
         return user, 200
 
-    @api.doc(description="Update a user by its id. (ONLY NAME/EMAIL)")
+    @api.doc(description="Update a user by its id. (only name/email works)")
     @users_ns.expect(user_input_model)
     @users_ns.marshal_with(user_model)
     def put(self, id):
