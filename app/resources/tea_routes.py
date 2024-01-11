@@ -2,7 +2,7 @@ from flask_restx import Resource, Namespace
 from ..models import Tea
 from ..api_models import tea_model, tea_input_model
 from ..extensions import db, api
-# from .script import getTeas  -> used to insert ALL teas for the first time
+# from tea_inserter.script import getTeas # -> used to insert ALL teas for the first time
 
 tea_ns = Namespace("api")  # essentially /api
 
@@ -12,25 +12,25 @@ class TeaListApi(Resource):
     @tea_ns.marshal_list_with(tea_model)
     @api.doc(description="Returns a list of all teas.", tags="tea")
     def get(self):
-        # getTeas() -> used to insert ALL teas for the first time
+        # getTeas()  # -> used to insert ALL teas for the first time
         return Tea.query.all()
 
-    # @tea_ns.expect(tea_input_model)
-    # @tea_ns.marshal_with(tea_model)
-    # @api.doc(description="Insert a tea into the Db.", tags="tea")
-    # def post(self):
-    #     tea = Tea(tea_id=tea_ns.payload["tea_id"],
-    #               name=tea_ns.payload["name"],
-    #               image=tea_ns.payload["image"],
-    #               ingredients=tea_ns.payload["ingredients"],
-    #               type=tea_ns.payload["type"],
-    #               prep_method=tea_ns.payload["prep_method"],
-    #               min_infuzion=tea_ns.payload["min_infuzion"],
-    #               max_infuzion=tea_ns.payload["max_infuzion"],
-    #               )
-    #     db.session.add(tea)
-    #     db.session.commit()
-    #     return tea, 201
+    @tea_ns.expect(tea_input_model)
+    @tea_ns.marshal_with(tea_model)
+    @api.doc(description="Insert a tea into the Db.", tags="tea")
+    def post(self):
+        tea = Tea(tea_id=tea_ns.payload["tea_id"],
+                  name=tea_ns.payload["name"],
+                  image=tea_ns.payload["image"],
+                  ingredients=tea_ns.payload["ingredients"],
+                  type=tea_ns.payload["type"],
+                  prep_method=tea_ns.payload["prep_method"],
+                  min_infuzion=tea_ns.payload["min_infuzion"],
+                  max_infuzion=tea_ns.payload["max_infuzion"],
+                  )
+        db.session.add(tea)
+        db.session.commit()
+        return tea, 201
 
 
 @tea_ns.route("/tea/<int:id>")

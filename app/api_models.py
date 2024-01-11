@@ -16,6 +16,18 @@ tea_model = api.model("Tea",
                           #   "course": fields.Nested(course_model)
                       })
 
+tea_input_model = api.model("TeaInput",
+                            {
+                                "tea_id": fields.String,
+                                "name": fields.String,
+                                "image": fields.String,
+                                "ingredients": fields.String,
+                                "type": fields.String,
+                                "prep_method": fields.String,
+                                "min_infuzion": fields.Integer,
+                                "max_infuzion": fields.Integer
+                            })
+
 
 user_model = api.model("User",
                        {
@@ -23,8 +35,6 @@ user_model = api.model("User",
                            "name": fields.String,
                            "email": fields.String,
                            "password": fields.String,
-                           "favourite_teas": fields.List(fields.Nested(tea_model)),
-                           "owned_teas": fields.List(fields.Nested(tea_model))
                        })
 
 user_input_model = api.model("UserInput",
@@ -40,17 +50,6 @@ user_login_model = api.model("UserLogin",
                                  "password": fields.String
                              })
 
-tea_input_model = api.model("TeaInput",
-                            {
-                                "tea_id": fields.String,
-                                "name": fields.String,
-                                "image": fields.String,
-                                "ingredients": fields.String,
-                                "type": fields.String,
-                                "prep_method": fields.String,
-                                "min_infuzion": fields.Integer,
-                                "max_infuzion": fields.Integer
-                            })
 
 follow_model = api.model("Firend",
                          {

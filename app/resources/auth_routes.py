@@ -2,7 +2,6 @@ from flask_restx import Resource, Namespace
 from ..models import User
 from ..api_models import user_input_model, user_login_model
 from ..extensions import db, bcrypt, api
-from flask import abort
 import re
 from flask_login import login_user, login_required, logout_user, current_user
 
@@ -23,18 +22,26 @@ class UserLogin(Resource):
     def post(self):
 
         if current_user.is_authenticated:
-            return {"message": "User already logged in."}, 401
+            msg = "User already logged in."
+            print(msg)
+            return {"message": msg}, 401
 
         user = User.query.filter_by(email=auth_ns.payload["email"]).first()
 
         if user is not None:
             if (bcrypt.check_password_hash(user.password, auth_ns.payload["password"])):
                 login_user(user, remember=True)
-                return {'message': 'Login successfull.'}, 200
+                msg = "Login successfull."
+                print(msg)
+                return {'message': msg}, 200
             else:
-                abort(400, "Password is incorrect.")
+                msg = "Password is incorrect."
+                print(msg)
+                return {'message': msg}, 400
         else:
-            abort(400, "Acccount does not exist.")
+            msg = "Acccount does not exist."
+            print(msg)
+            return {'message': msg}, 400
 
 
 @auth_ns.route("/logout")
@@ -42,7 +49,9 @@ class UserLogout(Resource):
     @login_required
     def get(self):
         logout_user()
-        return {'message': 'Logout successfull.'}, 200
+        msg = "Logout successfull."
+        print(msg)
+        return {'message': msg}, 200
 
 
 @auth_ns.route("/signup")
@@ -57,17 +66,17 @@ class UserSignup(Resource):
         # verify email exists, if valid
         user = User.query.filter_by(email=auth_ns.payload["email"]).first()
         if user:
-            abort(400, "User already exists.")
+            return {"message":  "User already exists."}, 400
         elif len(auth_ns.payload["name"]) <= 2:
-            abort(400, "Name is too short.")
+            return {"message":  "Name is too short."}, 400
         elif len(auth_ns.payload["name"]) > 25:
-            abort(400, "Name is too long.")
+            return {"message":  "Name is too long."}, 400
         elif not check_email_format(auth_ns.payload["email"]):
-            abort(400, "Email is not valid")
+            return {"message":  "Email is not valid"}, 400
         elif len(auth_ns.payload["password"]) < 6:
-            abort(400, "Password is too short.")
+            return {"message":  "Password is too short."}, 400
         elif len(auth_ns.payload["password"]) > 20:
-            abort(400, "Password is too long.")
+            return {"message":  "Password is too long."}, 400
         else:
             hashed_pass = bcrypt.generate_password_hash(
                 auth_ns.payload["password"]).decode('utf-8')
@@ -77,4 +86,6 @@ class UserSignup(Resource):
             db.session.add(new_user)
             db.session.commit()
             login_user(new_user, remember=True)
-            return {"message": "User created and logged in succesfully."}, 201
+            msg = "User created and logged in succesfully."
+            print(msg)
+            return {'message': msg}, 201

@@ -21,18 +21,14 @@ class User(db.Model, UserMixin):
     name = db.Column(db.String(50))
     password = db.Column(db.String(20))
 
-    favourite_teas = db.relationship('Tea', backref='favourite_owner', lazy=True,
-                                     foreign_keys='Tea.favourite_owner_id')
-
-    # Relationship defining the owned teas for a user
-    owned_teas = db.relationship('Tea', backref='owner', lazy=True,
-                                 foreign_keys='Tea.owner_id')
-
     related_users = db.relationship('Following',
                                     foreign_keys=[Following.user_id],
                                     backref=db.backref(
                                         'main_user', lazy='joined'),
                                     lazy='dynamic')
+
+    owned_and_favourite_teas = db.relationship(
+        'OwnedAndFavouriteTeas', back_populates='user', lazy='dynamic')
 
 
 class Tea(db.Model):
@@ -46,7 +42,16 @@ class Tea(db.Model):
     min_infuzion = db.Column(db.Integer)
     max_infuzion = db.Column(db.Integer)
 
-    favourite_owner_id = db.Column(db.Integer, db.ForeignKey('user.id'))
+    owned_and_favourite_users = db.relationship(
+        'OwnedAndFavouriteTeas', back_populates='tea', lazy='dynamic')
 
-    # Foreign key reference to the User table for owned teas
-    owner_id = db.Column(db.Integer, db.ForeignKey('user.id'))
+
+class OwnedAndFavouriteTeas(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
+    tea_id = db.Column(db.Integer, db.ForeignKey('tea.id'))
+    owned = db.Column(db.Boolean, default=False)
+    favourite = db.Column(db.Boolean, default=False)
+
+    user = db.relationship('User', back_populates='owned_and_favourite_teas')
+    tea = db.relationship('Tea', back_populates='owned_and_favourite_users')

@@ -1,6 +1,6 @@
 from flask_restx import Resource, Namespace
 from ..models import User, Following
-from ..api_models import follow_update_model, follow_view_model, user_model
+from ..api_models import follow_view_model
 from ..extensions import db, api
 from flask_login import current_user, login_required
 
@@ -26,19 +26,23 @@ class FriendApi(Resource):
 @login_required
 @friend_ns.route("/user/<int:id>/add_friend")
 class FriendAddApi(Resource):
-    @login_required
     @friend_ns.doc(description="Friend a user by thier id.")
-    def get(self, id):
+    def post(self, id):
         friend_user = User.query.get(id)
         # check user is not already friends
-        if friend_user is not None and friend_user.id != current_user.id:
+        if friend_user is None:
+            return {"message": "Invalid friend."}, 400
+
+        friend_list = FriendApi.get()
+        if friend_user.id in friend_list:
+            return {"message": "Friend already exists"}, 400
+
+        if friend_user.id != current_user.id:
             friend_relationship = Following(
                 user_id=current_user.id, followed_id=friend_user.id)
             db.session.add(friend_relationship)
             db.session.commit()
             return {"message": "Friend added."}, 200
-        else:
-            return {"message": "Invalid friend."}, 400
 
 
 @login_required
@@ -46,7 +50,7 @@ class FriendAddApi(Resource):
 class FriendRemoveApi(Resource):
     @login_required
     @friend_ns.doc(description="Remove friend by thier id.")
-    def get(self, id):
+    def delete(self, id):
         friend_user = User.query.get(id)
         # check user is not already friends
         if friend_user is not None and friend_user.id != current_user.id:
