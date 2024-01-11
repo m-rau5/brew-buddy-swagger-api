@@ -27,7 +27,7 @@ class FriendApi(Resource):
 @friend_ns.route("/user/<int:id>/add_friend")
 class FriendAddApi(Resource):
     @login_required
-    @friend_ns.doc(description="Friend a user by its id.")
+    @friend_ns.doc(description="Friend a user by thier id.")
     def get(self, id):
         friend_user = User.query.get(id)
         # check user is not already friends
@@ -45,7 +45,7 @@ class FriendAddApi(Resource):
 @friend_ns.route("/user/<int:id>/remove_friend")
 class FriendRemoveApi(Resource):
     @login_required
-    @friend_ns.doc(description="Remove friend by its id.")
+    @friend_ns.doc(description="Remove friend by thier id.")
     def get(self, id):
         friend_user = User.query.get(id)
         # check user is not already friends
