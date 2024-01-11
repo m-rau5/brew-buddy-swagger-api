@@ -1,36 +1,40 @@
 from flask_restx import Resource, Namespace
 from ..models import User
-from ..api_models import tea_model, user_model, tea_input_model, user_input_model, user_login_model
+from ..api_models import user_model, user_input_model
 from ..extensions import db, api
-from flask import abort
+from flask_login import login_required, current_user
+from flask_cors import CORS
+
 # from .script import getTeas  -> used to insert ALL teas for the first time
 
-ns2 = Namespace("api")
+users_ns = Namespace("api")
 
 
-@ns2.route("/users")
+@users_ns.route("/users")
 class UserList(Resource):
     @api.doc(description="Get list of all users.")
-    @ns2.marshal_list_with(user_model)
+    @users_ns.marshal_list_with(user_model)
     def get(self):
         return User.query.all()
 
 
-@ns2.route("/user/<int:id>")
+@users_ns.route("/user/<int:id>")
 class UserApi(Resource):
     @api.doc(description="Get a user by its id.")
-    @ns2.marshal_with(user_model)
+    @users_ns.marshal_with(user_model)
     def get(self, id):
         user = User.query.get(id)
         return user, 200
 
-    @api.doc(description="Update a user by its id.")
-    @ns2.expect(user_input_model)
-    @ns2.marshal_with(user_model)
+    @api.doc(description="Update a user by its id. (ONLY NAME/EMAIL)")
+    @users_ns.expect(user_input_model)
+    @users_ns.marshal_with(user_model)
     def put(self, id):
         user = User.query.get(id)
-        user.name = ns2.payload["name"]
-        user.course_id = ns2.payload["course_id"]
+        if users_ns.payload["name"]:
+            user.name = users_ns.payload["name"]
+        if users_ns.payload["email"]:
+            user.email = users_ns.payload["email"]
         db.session.commit()
         return user, 200
 
@@ -40,3 +44,18 @@ class UserApi(Resource):
         db.session.delete(user)
         db.session.commit()
         return {}, 204
+
+
+@users_ns.route("/user/update")
+class LoggedInUserAPI(Resource):
+    @api.doc(description="Lets a user update its data. (leave fields that are not changed empty)")
+    @users_ns.marshal_with(user_model)
+    @users_ns.expect(user_input_model)
+    def put(self):
+        user = User.query.get(current_user.id)
+        if users_ns.payload["name"]:
+            user.name = users_ns.payload["name"]
+        if users_ns.payload["email"]:
+            user.email = users_ns.payload["email"]
+        db.session.commit()
+        return user, 200

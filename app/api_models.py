@@ -50,3 +50,16 @@ tea_input_model = api.model("TeaInput",
                                 "min_infuzion": fields.Integer,
                                 "max_infuzion": fields.Integer
                             })
+
+follow_model = api.model("Firend",
+                         {
+                             "id": fields.Integer,
+                             "user_id": fields.Integer,
+                             "followed_id": fields.Integer
+                         })
+
+follow_update_model = api.model("Firend",
+                                {
+                                    "user_id": fields.Integer,
+                                    "followed_id": fields.Integer
+                                })
