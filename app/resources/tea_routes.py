@@ -170,7 +170,24 @@ class TeaEditOwnedAPI(Resource):
         user_id = self.parser.parse_args()['user_id']
         tea = Tea.query.get(tea_id)
         user = User.query.get(user_id)
-        return 200
+        if tea:
+            if not user:
+                return {"message": "User not found"}, 400
+
+            entry = OwnedTeas.query.filter_by(
+                user_id=user_id, tea_id=tea_id).first()
+
+            if entry:
+                return {"message": "Tea is already in this users owned."}, 400
+            else:
+                fav_tea = OwnedTeas(
+                    user_id=user_id, tea_id=tea_id)
+                db.session.add(fav_tea)
+                db.session.commit()
+
+            return {"message": "Tea added to owned!"}, 201
+        else:
+            return {"message": "Tea not found"}, 400
 
     @api.doc(description="Remove a tea from owned list by its database id.", tags="tea")
     @api.expect(parser, validate=True)
@@ -179,4 +196,44 @@ class TeaEditOwnedAPI(Resource):
         user_id = self.parser.parse_args()['user_id']
         tea = Tea.query.get(tea_id)
         user = User.query.get(user_id)
-        return 200
+        if tea:
+            if not user:
+                return {"message": "User not found."}, 400
+
+            entry = OwnedTeas.query.filter_by(
+                user_id=user_id, tea_id=tea_id).first()
+            print(entry)
+
+            if entry:
+                db.session.delete(entry)
+                db.session.commit()
+                return {"message": "Tea removed from owned!"}, 200
+            else:
+                return {"message": "Tea is not in user's owned list."}, 400
+        else:
+            return {"message": "Tea not found."}, 400
+
+
+@tea_ns.route("/tea/owned_favourites")
+class TeaGetBothAPI(Resource):
+
+    parser = reqparse.RequestParser()
+    parser.add_argument('user_id', type=int, required=True,
+                        help='The id of the user to list his/her owned teas.')
+
+    @api.doc(description="Get the teas that are both in the user's owned and favorites list.", tags="tea")
+    @api.expect(parser, validate=True)
+    @api.marshal_list_with(tea_model)
+    def get(self):
+        user_id = self.parser.parse_args()['user_id']
+        user_owned_list = OwnedTeas.query.filter_by(user_id=user_id).all()
+        user_fav_list = FavouriteTeas.query.filter_by(user_id=user_id).all()
+        # both_list = list(
+        #     set(user_fav_list).intersection(user_owned_list))
+        both_list = []
+        for owned in user_owned_list:
+            for fav in user_fav_list:
+                if owned.tea_id == fav.tea_id:
+                    both_list.append(Tea.query.get(owned.tea_id))
+
+        return both_list, 200

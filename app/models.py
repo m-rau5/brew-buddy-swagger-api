@@ -35,7 +35,7 @@ class User(db.Model, UserMixin):
 
 class Tea(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    tea_id = db.Column(db.String(5), db.ForeignKey('tea.id'))
+    tea_id = db.Column(db.String(5), db.ForeignKey('tea.id'), unique=True)
     name = db.Column(db.String(50), unique=True)
     image = db.Column(db.String(50))
     ingredients = db.Column(db.String(50))
@@ -48,6 +48,9 @@ class Tea(db.Model):
         'OwnedTeas', back_populates='tea', lazy='dynamic')
     favourtie_users = db.relationship(
         'FavouriteTeas', back_populates='tea', lazy='dynamic')
+
+    def __eq__(self, other):
+        return self.id == other.id
 
 
 class OwnedTeas(db.Model):
