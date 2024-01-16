@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\Raul\Documents\python prj\Carturesti Ceai Helper\db creater\.env
+set VIRTUAL_ENV=C:\Users\Raul\Documents\python prj\Carturesti Ceai Helper\backend\brew-buddy-swagger-api\.env
 
 if not defined PROMPT set PROMPT=$P$G
 

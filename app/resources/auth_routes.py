@@ -1,9 +1,9 @@
 from flask_restx import Resource, Namespace
 from ..models import User
 from ..api_models import user_input_model, user_login_model, user_resp_model
-from ..extensions import db, bcrypt, api
+from ..extensions import db, bcrypt, api, jwt
 import re
-from flask_login import login_user, login_required, logout_user, current_user
+# from flask_login import login_user, login_required, logout_user, current_user
 
 auth_ns = Namespace("api")  # essentially /api
 
@@ -26,17 +26,13 @@ class UserLogin(Resource):
     @api.doc(description="Login the user.")
     def post(self):
 
-        if current_user.is_authenticated:
-            msg = "User already logged in."
-            print(msg)
-            return {"message": msg}, 401
-
         user = User.query.filter_by(email=auth_ns.payload["email"]).first()
 
         if user is not None:
             if (bcrypt.check_password_hash(user.password, auth_ns.payload["password"])):
-                login_user(user, remember=True)
+                # login_user(user, remember=True)
                 msg = "Login successfull."
+                print(msg)
                 return return_user(user)
             else:
                 msg = "Password is incorrect."
@@ -50,9 +46,9 @@ class UserLogin(Resource):
 
 @auth_ns.route("/logout")
 class UserLogout(Resource):
-    @login_required
+    # @login_required
     def get(self):
-        logout_user()
+        # logout_user()
         msg = "Logout successfull."
         print(msg)
         return {'message': msg}, 200
@@ -63,10 +59,6 @@ class UserSignup(Resource):
     @auth_ns.expect(user_input_model)
     @api.doc(description="Sign up the user.")
     def post(self):
-
-        if current_user.is_authenticated:
-            return {"message": "User already logged in."}, 401
-
         # verify email exists, if valid
         user = User.query.filter_by(email=auth_ns.payload["email"]).first()
         if user:
@@ -89,7 +81,6 @@ class UserSignup(Resource):
                             password=hashed_pass)
             db.session.add(new_user)
             db.session.commit()
-            login_user(new_user, remember=True)
-            msg = "User created and logged in succesfully."
+            msg = "Sign up succesfull."
             print(msg)
             return {'message': msg}, 201

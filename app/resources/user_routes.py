@@ -1,9 +1,7 @@
-from flask_restx import Resource, Namespace
+from flask_restx import Resource, Namespace, reqparse, marshal
 from ..models import User
-from ..api_models import user_model, user_input_model
+from ..api_models import user_model, user_input_model, error_fields, user_resp_model
 from ..extensions import db, api
-from flask_login import login_required, current_user
-
 # from .script import getTeas  -> used to insert ALL teas for the first time
 
 users_ns = Namespace("api")
@@ -17,45 +15,38 @@ class UserList(Resource):
         return User.query.all()
 
 
-@users_ns.route("/user/<int:id>")
+@users_ns.route("/user")
 class UserApi(Resource):
+
+    parser = reqparse.RequestParser()
+    parser.add_argument('user_id', type=int, required=True,
+                        help='The id of the user.')
+
     @api.doc(description="Get a user by thier id.")
-    @users_ns.marshal_with(user_model)
-    def get(self, id):
+    @api.expect(parser, validate=True)
+    def get(self):
+        id = self.parser.parse_args()['user_id']
         user = User.query.get(id)
-        return user, 200
-
-    # @api.doc(description="Update a user by its id. (only name/email works)")
-    # @users_ns.expect(user_input_model)
-    # @users_ns.marshal_with(user_model)
-    # def put(self, id):
-    #     user = User.query.get(id)
-    #     if users_ns.payload["name"]:
-    #         user.name = users_ns.payload["name"]
-    #     if users_ns.payload["email"]:
-    #         user.email = users_ns.payload["email"]
-    #     db.session.commit()
-    #     return user, 200
-
-    # @api.doc(description="Delete a user by thier id.")
-    # def delete(self, id):
-    #     user = User.query.get(id)
-    #     db.session.delete(user)
-    #     db.session.commit()
-    #     return {}, 204
+        if user:
+            return marshal(user, user_resp_model), 200
+        else:
+            return marshal({"message": "User does not exist."}, error_fields), 400
 
 
 @users_ns.route("/user/update")
 class LoggedInUserAPI(Resource):
-    @api.doc(description="Lets a logged in user update thier data. (empty fields are not changed)")
-    @users_ns.marshal_with(user_model)
-    @users_ns.expect(user_input_model)
-    @login_required
+
+    @api.doc(description="Lets a user update thier data. (empty fields are not changed)")
+    @users_ns.expect(user_model)
     def put(self):
-        user = User.query.get(current_user.id)
+        id = users_ns.payload["id"]
+        print(id)
+        user = User.query.get(id)
+        if not user:
+            return marshal({"message": "User does not exist."}, error_fields), 400
         if users_ns.payload["name"]:
             user.name = users_ns.payload["name"]
         if users_ns.payload["email"]:
             user.email = users_ns.payload["email"]
         db.session.commit()
-        return user, 200
+        return marshal(user, user_model), 200

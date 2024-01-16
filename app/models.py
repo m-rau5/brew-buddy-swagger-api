@@ -1,6 +1,6 @@
 from .extensions import db
 from flask_login import UserMixin
-
+from dataclasses import dataclass
 # TO CREATE: we can use: "flask shell" -> "from app.models import *"" -> "db.create_all()"" to create the db
 # TO VIEW: we can use -> "sqlite3 instance/db.sqlite3" -> ".tables" to see the status of tables
 
@@ -27,8 +27,10 @@ class User(db.Model, UserMixin):
                                         'main_user', lazy='joined'),
                                     lazy='dynamic')
 
-    owned_and_favourite_teas = db.relationship(
-        'OwnedAndFavouriteTeas', back_populates='user', lazy='dynamic')
+    owned_teas = db.relationship(
+        'OwnedTeas', back_populates='user', lazy='dynamic')
+    favourite_teas = db.relationship(
+        'FavouriteTeas', back_populates='user', lazy='dynamic')
 
 
 class Tea(db.Model):
@@ -42,16 +44,25 @@ class Tea(db.Model):
     min_infuzion = db.Column(db.Integer)
     max_infuzion = db.Column(db.Integer)
 
-    owned_and_favourite_users = db.relationship(
-        'OwnedAndFavouriteTeas', back_populates='tea', lazy='dynamic')
+    owned_users = db.relationship(
+        'OwnedTeas', back_populates='tea', lazy='dynamic')
+    favourtie_users = db.relationship(
+        'FavouriteTeas', back_populates='tea', lazy='dynamic')
 
 
-class OwnedAndFavouriteTeas(db.Model):
+class OwnedTeas(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
     tea_id = db.Column(db.Integer, db.ForeignKey('tea.id'))
-    owned = db.Column(db.Boolean, default=False)
-    favourite = db.Column(db.Boolean, default=False)
 
-    user = db.relationship('User', back_populates='owned_and_favourite_teas')
-    tea = db.relationship('Tea', back_populates='owned_and_favourite_users')
+    user = db.relationship('User', back_populates='owned_teas')
+    tea = db.relationship('Tea', back_populates='owned_users')
+
+
+class FavouriteTeas(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
+    tea_id = db.Column(db.Integer, db.ForeignKey('tea.id'))
+
+    user = db.relationship('User', back_populates='favourite_teas')
+    tea = db.relationship('Tea', back_populates='favourtie_users')

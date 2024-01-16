@@ -1,5 +1,5 @@
 from flask import Flask
-from .extensions import db, bcrypt, login_manager, api
+from .extensions import db, bcrypt, login_manager, api, jwt
 from .resources.auth_routes import auth_ns
 from .resources.friend_routes import friend_ns
 from .resources.tea_routes import tea_ns
@@ -20,6 +20,7 @@ def create_app():
     db.init_app(app)
     bcrypt.init_app(app)
     login_manager.init_app(app)
+    jwt.init_app(app)
 
     api.add_namespace(auth_ns)
     api.add_namespace(users_ns)

@@ -13,7 +13,6 @@ tea_model = api.model("Tea",
                           "prep_method": fields.String,
                           "min_infuzion": fields.Integer,
                           "max_infuzion": fields.Integer
-                          #   "course": fields.Nested(course_model)
                       })
 
 tea_input_model = api.model("TeaInput",
@@ -75,3 +74,13 @@ follow_view_model = api.model("Firend",
                               {
                                   "followed_id": fields.Integer
                               })
+
+favourite_list_model = api.model("FavList",
+                                 {
+                                     "tea_id": fields.Integer
+                                 })
+
+error_fields = api.model('Error',
+                         {
+                             'message': fields.String
+                         })
