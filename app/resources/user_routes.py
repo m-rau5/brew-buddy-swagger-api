@@ -2,9 +2,17 @@ from flask_restx import Resource, Namespace, reqparse, marshal
 from ..models import User
 from ..api_models import user_model, user_input_model, error_fields, user_resp_model
 from ..extensions import db, api
+import re
 # from .script import getTeas  -> used to insert ALL teas for the first time
 
 users_ns = Namespace("api")
+
+
+def check_email_format(email):
+    regex = r'\b[a-z0-9._%+-]+@[a-z.-]+\.[a-z]{2,7}\b'
+    if (re.fullmatch(regex, email)):
+        return True
+    return False
 
 
 @users_ns.route("/users")
@@ -44,6 +52,12 @@ class LoggedInUserAPI(Resource):
         user = User.query.get(id)
         if not user:
             return marshal({"message": "User does not exist."}, error_fields), 400
+        if len(users_ns.payload["name"]) <= 2:
+            return {"message":  "Name is too short."}, 400
+        elif len(users_ns.payload["name"]) > 25:
+            return {"message":  "Name is too long."}, 400
+        elif not check_email_format(users_ns.payload["email"]):
+            return {"message":  "Email is not valid"}, 400
         if users_ns.payload["name"]:
             user.name = users_ns.payload["name"]
         if users_ns.payload["email"]:

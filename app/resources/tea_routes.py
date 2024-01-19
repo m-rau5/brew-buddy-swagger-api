@@ -80,7 +80,7 @@ class TeaEditFavsAPI(Resource):
     parser.add_argument('user_id', type=int, required=True,
                         help='The id of the user whose list we want to add the tea to.')
 
-    @api.doc(description="Favourite/unfavourite a tea by its database id.", tags="tea")
+    @api.doc(description="Favourite a tea by its database id.", tags="tea")
     @api.expect(parser, validate=True)
     def post(self):
         tea_id = self.parser.parse_args()['tea_id']
